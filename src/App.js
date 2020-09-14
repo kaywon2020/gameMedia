@@ -1,22 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
+import mypic from './imgs/2.png'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={mypic} className="App-logo" alt="logo" />
         <p>
-          보형이 자지 5cm
+          권영오애요
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.twitch.tv/rnjsduddh825"
           target="_blank"
           rel="noopener noreferrer"
         >
-          자지
+          요후요후
         </a>
       </header>
     </div>
