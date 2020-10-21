@@ -1,25 +1,17 @@
 import React from 'react';
-import mypic from './imgs/2.png'
+import { BrowserRouter, Route } from 'react-router-dom';
+import Home from './Home';
+import pageTwo from './pageTwo';
+import  Navigation from './Navigation'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={mypic} className="App-logo" alt="logo" />
-        <p>
-          권영오애요
-        </p>
-        <a
-          className="App-link"
-          href="https://www.twitch.tv/rnjsduddh825"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          요후요후
-        </a>
-      </header>
-    </div>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <Navigation />
+      <Route exact path="/" component={Home} />
+      <Route path="/pageTwo" component={pageTwo} />
+    </BrowserRouter>
   );
 }
 
