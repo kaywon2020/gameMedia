@@ -1,5 +1,6 @@
 import React from 'react';
 import mypic from './imgs/2.png'
+import GameYouTube from "./GameYouTube";
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
           <p>
             권영오애요
           </p>
+          <GameYouTube videoID="niGkG2FLPdU"/>
           <a
             className="App-link"
             href="https://www.twitch.tv/rnjsduddh825"
