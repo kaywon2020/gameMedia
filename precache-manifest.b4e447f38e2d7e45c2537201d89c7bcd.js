@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e9badc323c78060ef6032f053c883b64",
+    "revision": "ae5d3750189387edbdc1fa92f70a62c8",
     "url": "/gameMedia/index.html"
   },
   {
