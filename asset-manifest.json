@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/gameMedia/static/css/main.0bbeb6f4.chunk.css",
-    "main.js": "/gameMedia/static/js/main.e92c2cf1.chunk.js",
-    "main.js.map": "/gameMedia/static/js/main.e92c2cf1.chunk.js.map",
+    "main.css": "/gameMedia/static/css/main.824b72e2.chunk.css",
+    "main.js": "/gameMedia/static/js/main.ec7e0f7d.chunk.js",
+    "main.js.map": "/gameMedia/static/js/main.ec7e0f7d.chunk.js.map",
     "runtime-main.js": "/gameMedia/static/js/runtime-main.18854cf4.js",
     "runtime-main.js.map": "/gameMedia/static/js/runtime-main.18854cf4.js.map",
-    "static/js/2.86b15d17.chunk.js": "/gameMedia/static/js/2.86b15d17.chunk.js",
-    "static/js/2.86b15d17.chunk.js.map": "/gameMedia/static/js/2.86b15d17.chunk.js.map",
+    "static/js/2.1c4f8498.chunk.js": "/gameMedia/static/js/2.1c4f8498.chunk.js",
+    "static/js/2.1c4f8498.chunk.js.map": "/gameMedia/static/js/2.1c4f8498.chunk.js.map",
     "index.html": "/gameMedia/index.html",
-    "precache-manifest.f8a7fca834b384c6fcb7263ae5589045.js": "/gameMedia/precache-manifest.f8a7fca834b384c6fcb7263ae5589045.js",
+    "precache-manifest.bd4f8a8526deaa3e84311b0f75a8faa9.js": "/gameMedia/precache-manifest.bd4f8a8526deaa3e84311b0f75a8faa9.js",
     "service-worker.js": "/gameMedia/service-worker.js",
-    "static/css/main.0bbeb6f4.chunk.css.map": "/gameMedia/static/css/main.0bbeb6f4.chunk.css.map",
-    "static/js/2.86b15d17.chunk.js.LICENSE.txt": "/gameMedia/static/js/2.86b15d17.chunk.js.LICENSE.txt",
-    "static/media/2.png": "/gameMedia/static/media/2.a516f94d.png"
+    "static/css/main.824b72e2.chunk.css.map": "/gameMedia/static/css/main.824b72e2.chunk.css.map",
+    "static/js/2.1c4f8498.chunk.js.LICENSE.txt": "/gameMedia/static/js/2.1c4f8498.chunk.js.LICENSE.txt",
+    "static/media/2.png": "/gameMedia/static/media/2.a516f94d.png",
+    "static/media/nightmare01.jpg": "/gameMedia/static/media/nightmare01.02549592.jpg",
+    "static/media/nightmareLogo.png": "/gameMedia/static/media/nightmareLogo.5fdd0965.png",
+    "static/media/witchSaga01.jpg": "/gameMedia/static/media/witchSaga01.205387b8.jpg",
+    "static/media/witchSagaChar.png": "/gameMedia/static/media/witchSagaChar.22a1e471.png",
+    "static/media/witchSagaLogo.png": "/gameMedia/static/media/witchSagaLogo.a9fd9cc7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.18854cf4.js",
-    "static/js/2.86b15d17.chunk.js",
-    "static/css/main.0bbeb6f4.chunk.css",
-    "static/js/main.e92c2cf1.chunk.js"
+    "static/js/2.1c4f8498.chunk.js",
+    "static/css/main.824b72e2.chunk.css",
+    "static/js/main.ec7e0f7d.chunk.js"
   ]
 }
