@@ -1,6 +1,8 @@
 import React from 'react';
 import mypic from './imgs/2.png'
 import GameYouTube from "./GameYouTube";
+// import GameTitle from "./comp/GameTitle";
+// import NightMare from "./NightMare"
 
 const Home = () => {
     return (
@@ -11,6 +13,8 @@ const Home = () => {
           <p>
             권영오애요
           </p>
+          {/* <NightMare /> */}
+          {/* <GameTitle gameT="nightMare" /> */}
           <GameYouTube videoID="niGkG2FLPdU"/>
           <a
             className="App-link"

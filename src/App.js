@@ -2,8 +2,10 @@ import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Home from './Home';
 import pageTwo from './pageTwo';
+import  NightMare from './games/NightMare'
+import  WitchSaga from './games/WitchSaga'
 import  Navigation from './Navigation'
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Navigation />
       <Route exact path="/" component={Home} />
       <Route path="/pageTwo" component={pageTwo} />
+      <Route path="/nightMare" component={NightMare} />
+      <Route path="/witchSaga" component={WitchSaga} />
     </BrowserRouter>
   );
 }

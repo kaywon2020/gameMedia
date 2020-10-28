@@ -1,7 +1,8 @@
 import React from 'react';
 import YouTube from "react-youtube";
 
-function GameYouTube(props) {
+const GameYouTube= (props) => {
+  console.log(props);
     const opts = {
         width: "640",
         height: "390",
