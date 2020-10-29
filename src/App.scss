@@ -1,3 +1,4 @@
+//컬러 변수 추가
 $red: #e74c3c;
 $yellow: #f1c40f;
 
@@ -6,6 +7,8 @@ body {
   margin: 0px;
   overflow: scroll;
   scroll-behavior: smooth;
+  display: flex;
+  // 우클릭 설렉 금지
 	-webkit-font-smoothing: subpixel-antialiased;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
@@ -15,7 +18,17 @@ body {
   user-select: none;
 } 
 
+#root{
+  width: 100%;
+}
+
 .navi{
+  height: 100%;
+  top: 0px;
+  right: 0px;
+  position: fixed;
+  flex-direction: column;
+  display: flex;
   background-color: black;
 }
 
@@ -29,14 +42,14 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: 100%;
 
   // 나이트 메어 배경색
   &.nightMare{
     .game-illust01 {
       background-color: black;
     }
-
-  
+    // 소개 글짜색
     .game-intro{
       color: white;
     }
@@ -48,6 +61,7 @@ body {
     pointer-events: none;
   }
 
+  //다운로드 버튼
   .down-btn{
     cursor: pointer;
     box-sizing: border-box;
@@ -83,6 +97,8 @@ body {
       outline: 0;
     }
   }
+
+  // 게임 배경
   .game-illust01{
     pointer-events: none;
     top:0px;

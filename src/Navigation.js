@@ -18,8 +18,8 @@ const Navigation = () => {
       <NavLink to="/" activeStyle={activeStyle} exact style={defaultStyle}>
         Home
       </NavLink>
-      <NavLink to="/pageTwo" activeStyle={activeStyle} style={defaultStyle}>
-        About
+      <NavLink to="/info" activeStyle={activeStyle} style={defaultStyle}>
+        Info
       </NavLink>
       <NavLink to="/nightMare" activeStyle={activeStyle} style={defaultStyle}>
         nightMare
