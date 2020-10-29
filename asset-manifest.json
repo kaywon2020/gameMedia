@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/gameMedia/static/css/main.824b72e2.chunk.css",
-    "main.js": "/gameMedia/static/js/main.ec7e0f7d.chunk.js",
-    "main.js.map": "/gameMedia/static/js/main.ec7e0f7d.chunk.js.map",
+    "main.css": "/gameMedia/static/css/main.f8203c2c.chunk.css",
+    "main.js": "/gameMedia/static/js/main.9d39cd9a.chunk.js",
+    "main.js.map": "/gameMedia/static/js/main.9d39cd9a.chunk.js.map",
     "runtime-main.js": "/gameMedia/static/js/runtime-main.18854cf4.js",
     "runtime-main.js.map": "/gameMedia/static/js/runtime-main.18854cf4.js.map",
-    "static/js/2.1c4f8498.chunk.js": "/gameMedia/static/js/2.1c4f8498.chunk.js",
-    "static/js/2.1c4f8498.chunk.js.map": "/gameMedia/static/js/2.1c4f8498.chunk.js.map",
+    "static/js/2.2e53dfe2.chunk.js": "/gameMedia/static/js/2.2e53dfe2.chunk.js",
+    "static/js/2.2e53dfe2.chunk.js.map": "/gameMedia/static/js/2.2e53dfe2.chunk.js.map",
     "index.html": "/gameMedia/index.html",
-    "precache-manifest.bd4f8a8526deaa3e84311b0f75a8faa9.js": "/gameMedia/precache-manifest.bd4f8a8526deaa3e84311b0f75a8faa9.js",
+    "precache-manifest.98576877420a2cdef5052ca359d20174.js": "/gameMedia/precache-manifest.98576877420a2cdef5052ca359d20174.js",
     "service-worker.js": "/gameMedia/service-worker.js",
-    "static/css/main.824b72e2.chunk.css.map": "/gameMedia/static/css/main.824b72e2.chunk.css.map",
-    "static/js/2.1c4f8498.chunk.js.LICENSE.txt": "/gameMedia/static/js/2.1c4f8498.chunk.js.LICENSE.txt",
-    "static/media/2.png": "/gameMedia/static/media/2.a516f94d.png",
+    "static/css/main.f8203c2c.chunk.css.map": "/gameMedia/static/css/main.f8203c2c.chunk.css.map",
+    "static/js/2.2e53dfe2.chunk.js.LICENSE.txt": "/gameMedia/static/js/2.2e53dfe2.chunk.js.LICENSE.txt",
     "static/media/nightmare01.jpg": "/gameMedia/static/media/nightmare01.02549592.jpg",
     "static/media/nightmareLogo.png": "/gameMedia/static/media/nightmareLogo.5fdd0965.png",
     "static/media/witchSaga01.jpg": "/gameMedia/static/media/witchSaga01.205387b8.jpg",
@@ -21,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.18854cf4.js",
-    "static/js/2.1c4f8498.chunk.js",
-    "static/css/main.824b72e2.chunk.css",
-    "static/js/main.ec7e0f7d.chunk.js"
+    "static/js/2.2e53dfe2.chunk.js",
+    "static/css/main.f8203c2c.chunk.css",
+    "static/js/main.9d39cd9a.chunk.js"
   ]
 }
