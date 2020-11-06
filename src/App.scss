@@ -1,4 +1,4 @@
-//컬러 변수 추가
+ //컬러 변수 추가
 $red: #e74c3c;
 $yellow: #f1c40f;
 
@@ -22,16 +22,26 @@ body {
   width: 100%;
 }
 
-.navi{
-  height: 100%;
+.header{
+  height: fit-content;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
   top: 0px;
   right: 0px;
-  position: fixed;
   flex-direction: column;
   display: flex;
-  background-color: black;
+  background-color: white;
 }
-
+.sldier-wrap{
+  display: flex;
+  justify-content: center;
+  .game{
+    outline: none;
+    display: flex;
+    justify-content: center;
+  }
+}
 // 스크롤바 수정
 ::-webkit-scrollbar {
    display: none; 

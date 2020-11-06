@@ -11,7 +11,9 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
-    "react-youtube": "^7.13.0"
+    "react-slick": "^0.27.12",
+    "react-youtube": "^7.13.0",
+    "slick-carousel": "^1.8.1"
   },
   "homepage": "http://kaywon2020.github.io/gameMedia",
   "scripts": {

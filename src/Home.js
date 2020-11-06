@@ -1,12 +1,14 @@
 import React from 'react';
-
-// import GameTitle from "./comp/GameTitle";
+import BannerSlider from './comp/BannerSlider';
+// import Slider from 'react-slick';
+import GameTitle from "./comp/BannerSlider";
 // import NightMare from "./NightMare"
 
 const Home = () => {
+
     return (
         <div className="App">
-            <h1> Untact With Me </h1>
+            <BannerSlider/>
       </div>
     );
 };
