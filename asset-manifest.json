@@ -1,27 +1,33 @@
 {
   "files": {
-    "main.css": "/gameMedia/static/css/main.f8203c2c.chunk.css",
-    "main.js": "/gameMedia/static/js/main.9d39cd9a.chunk.js",
-    "main.js.map": "/gameMedia/static/js/main.9d39cd9a.chunk.js.map",
+    "main.css": "/gameMedia/static/css/main.2badc9dd.chunk.css",
+    "main.js": "/gameMedia/static/js/main.2e4afb23.chunk.js",
+    "main.js.map": "/gameMedia/static/js/main.2e4afb23.chunk.js.map",
     "runtime-main.js": "/gameMedia/static/js/runtime-main.18854cf4.js",
     "runtime-main.js.map": "/gameMedia/static/js/runtime-main.18854cf4.js.map",
-    "static/js/2.2e53dfe2.chunk.js": "/gameMedia/static/js/2.2e53dfe2.chunk.js",
-    "static/js/2.2e53dfe2.chunk.js.map": "/gameMedia/static/js/2.2e53dfe2.chunk.js.map",
+    "static/css/2.cd47af82.chunk.css": "/gameMedia/static/css/2.cd47af82.chunk.css",
+    "static/js/2.c932c7ca.chunk.js": "/gameMedia/static/js/2.c932c7ca.chunk.js",
+    "static/js/2.c932c7ca.chunk.js.map": "/gameMedia/static/js/2.c932c7ca.chunk.js.map",
     "index.html": "/gameMedia/index.html",
-    "precache-manifest.98576877420a2cdef5052ca359d20174.js": "/gameMedia/precache-manifest.98576877420a2cdef5052ca359d20174.js",
+    "precache-manifest.faa34012a522edaef19f8a83ca466579.js": "/gameMedia/precache-manifest.faa34012a522edaef19f8a83ca466579.js",
     "service-worker.js": "/gameMedia/service-worker.js",
-    "static/css/main.f8203c2c.chunk.css.map": "/gameMedia/static/css/main.f8203c2c.chunk.css.map",
-    "static/js/2.2e53dfe2.chunk.js.LICENSE.txt": "/gameMedia/static/js/2.2e53dfe2.chunk.js.LICENSE.txt",
+    "static/css/2.cd47af82.chunk.css.map": "/gameMedia/static/css/2.cd47af82.chunk.css.map",
+    "static/css/main.2badc9dd.chunk.css.map": "/gameMedia/static/css/main.2badc9dd.chunk.css.map",
+    "static/js/2.c932c7ca.chunk.js.LICENSE.txt": "/gameMedia/static/js/2.c932c7ca.chunk.js.LICENSE.txt",
+    "static/media/gameMediaLogo.png": "/gameMedia/static/media/gameMediaLogo.20cc3089.png",
+    "static/media/nightMareB.jpg": "/gameMedia/static/media/nightMareB.a52f9c43.jpg",
     "static/media/nightmare01.jpg": "/gameMedia/static/media/nightmare01.02549592.jpg",
     "static/media/nightmareLogo.png": "/gameMedia/static/media/nightmareLogo.5fdd0965.png",
+    "static/media/slick-theme.css": "/gameMedia/static/media/slick.f97e3bbf.svg",
     "static/media/witchSaga01.jpg": "/gameMedia/static/media/witchSaga01.205387b8.jpg",
     "static/media/witchSagaChar.png": "/gameMedia/static/media/witchSagaChar.22a1e471.png",
     "static/media/witchSagaLogo.png": "/gameMedia/static/media/witchSagaLogo.a9fd9cc7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.18854cf4.js",
-    "static/js/2.2e53dfe2.chunk.js",
-    "static/css/main.f8203c2c.chunk.css",
-    "static/js/main.9d39cd9a.chunk.js"
+    "static/css/2.cd47af82.chunk.css",
+    "static/js/2.c932c7ca.chunk.js",
+    "static/css/main.2badc9dd.chunk.css",
+    "static/js/main.2e4afb23.chunk.js"
   ]
 }
