@@ -1,8 +1,8 @@
 
 import React from "react";
 import { NavLink } from "react-router-dom";
-import gameMediaLogo from './imgs/gameMediaLogo.png'
-import playLogo from './imgs/playLogo.png'
+import gameMediaLogo from './imgs/gameMediaLogo.png';
+import playLogo from './imgs/playLogo.png';
 
 const activeStyle = {
   color: "black",
@@ -31,12 +31,12 @@ const Navigation = () => {
         <NavLink to="/info" activeStyle={activeStyle} style={defaultStyle}>
           Info
         </NavLink>
-        <NavLink to="/nightMare" activeStyle={activeStyle} style={defaultStyle}>
+        {/* <NavLink to="/nightMare" activeStyle={activeStyle} style={defaultStyle}>
           nightMare
         </NavLink>
         <NavLink to="/witchSaga" activeStyle={activeStyle} style={defaultStyle}>
         witchSaga
-        </NavLink>
+        </NavLink> */}
         </div>
     </div>
   );
