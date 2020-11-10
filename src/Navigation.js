@@ -4,19 +4,11 @@ import { NavLink } from "react-router-dom";
 import gameMediaLogo from './imgs/gameMediaLogo.png';
 import playLogo from './imgs/playLogo.png';
 
-const activeStyle = {
-  color: "black",
-};
 
-const defaultStyle = {
-  textDecoration: "none",
-  color: "#9e9e9e",
-  margin: "5px",
-};
 
 const Navigation = () => {
   return (
-    <div className="header">
+    <div className="header fade-in">
       <div className="gameLogo">
         <img src={gameMediaLogo}/>
       </div>
@@ -25,10 +17,10 @@ const Navigation = () => {
       </div>
       <h1> Untact With Me </h1>
       <div className="navi">
-        <NavLink to="/" activeStyle={activeStyle} exact style={defaultStyle}>
+        <NavLink to="/"  exact >
           Home
         </NavLink>
-        <NavLink to="/info" activeStyle={activeStyle} style={defaultStyle}>
+        <NavLink to="/info" >
           Info
         </NavLink>
         {/* <NavLink to="/nightMare" activeStyle={activeStyle} style={defaultStyle}>

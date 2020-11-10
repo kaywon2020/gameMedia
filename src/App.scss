@@ -1,8 +1,11 @@
- //컬러 변수 추가
+// NotoSansKR
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap');
+//컬러 변수 추가
 $red: #e74c3c;
 $yellow: #f1c40f;
 
-body { 
+body {
+  font-family: 'Noto Sans KR', sans-serif; 
   -ms-overflow-style: none; 
   margin: 0px;
   overflow: scroll;
@@ -22,6 +25,12 @@ body {
   width: 100%;
 }
 
+// 스크롤바 수정
+::-webkit-scrollbar {
+  display: none; 
+}
+
+// 헤더
 .header{
   height: fit-content;
   width: 100%;
@@ -32,25 +41,62 @@ body {
   flex-direction: column;
   display: flex;
   background-color: white;
+  a{
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0 15px;
+    color: #010101;
+    text-decoration: none;
+  }
 }
+
+// 슬라이드
 .slider-wrap{
+  width: 100%;
+  overflow: hidden;
+  height: 330px;
+  
   .game{
     outline: none;
     display: flex;
+    width: 750px;
+    height: 330px;
+    overflow: hidden;
     justify-content: center;
-    img{
+    .gameBanner, img{
       margin: 0 auto;
-      cursor: pointer;
+    }
+    .gameBanner{
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1001;
+      width: 750px;
+      height: 330px;
+      transition: background-color 0.25s ease-in-out;
+
+      .gameLink{
+        cursor: pointer;
+        text-decoration: none;
+        color:black ;
+      }
+
+      +img{
+        transform: scale(1);
+        transition: transform 0.25s ease-in-out;
+      }
+
       &:hover{
-        background-color:yellow ;
+        background-color: rgba($color: #fff, $alpha: 0.8);
+        +img{
+          transform: scale(1.1);
+          z-index: -1;
+        }
       }
     }
   }
 }
-// 스크롤바 수정
-::-webkit-scrollbar {
-   display: none; 
- }
 
 .game-page {
   display: flex;
@@ -131,4 +177,27 @@ body {
     }
   }
 
+}
+
+//애니메이션
+.fade-in {
+	-webkit-animation: fade-in 1.2s ease-in-out both;
+	        animation: fade-in 1.2s ease-in-out both;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

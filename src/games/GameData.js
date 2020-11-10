@@ -1,4 +1,4 @@
-import nightMareB from '../imgs/nightMareB.jpg';
+import nightMareB from '../imgs/nightMareB.png';
 import witchSagaB from '../imgs/witchSagaB.jpg';
 import minerSaurB from '../imgs/minerSaurB.jpg';
 import shieldB from '../imgs/shieldB.jpg';
