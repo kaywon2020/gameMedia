@@ -1,51 +1,51 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cd183a4f1c310550a0af22164fab2cf9",
+    "revision": "419dc7a54c937d104dda9d50a582f5b7",
     "url": "/gameMedia/index.html"
   },
   {
-    "revision": "bc3162e7529b267ab7b9",
+    "revision": "2ef445b0dd282767ae52",
     "url": "/gameMedia/static/css/2.cd47af82.chunk.css"
   },
   {
-    "revision": "eafb1a8b743c828a9777",
-    "url": "/gameMedia/static/css/main.34ab1db3.chunk.css"
+    "revision": "ca324fa45e2ee9b3c671",
+    "url": "/gameMedia/static/css/main.7df128fc.chunk.css"
   },
   {
-    "revision": "bc3162e7529b267ab7b9",
-    "url": "/gameMedia/static/js/2.f23e413e.chunk.js"
+    "revision": "2ef445b0dd282767ae52",
+    "url": "/gameMedia/static/js/2.5c1fb65a.chunk.js"
   },
   {
     "revision": "6c99299aa0ccf7cd363681b2638ef8ef",
-    "url": "/gameMedia/static/js/2.f23e413e.chunk.js.LICENSE.txt"
+    "url": "/gameMedia/static/js/2.5c1fb65a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eafb1a8b743c828a9777",
-    "url": "/gameMedia/static/js/main.40eff719.chunk.js"
+    "revision": "ca324fa45e2ee9b3c671",
+    "url": "/gameMedia/static/js/main.9ceac8d0.chunk.js"
   },
   {
     "revision": "8fa0a2eb5e2d20c85126",
     "url": "/gameMedia/static/js/runtime-main.18854cf4.js"
   },
   {
-    "revision": "eee9db7de5ff7295140e5652e72805f2",
-    "url": "/gameMedia/static/media/artBusterB.eee9db7d.jpg"
+    "revision": "07583908a50d5f2ec6225ff0a04037a2",
+    "url": "/gameMedia/static/media/artBusterB.07583908.jpg"
   },
   {
-    "revision": "ca9e28620ee8661d38fcfc0df2c1167d",
-    "url": "/gameMedia/static/media/coreBallB.ca9e2862.jpg"
+    "revision": "e3d9de03ecbb7751e1a327822d5cb4d7",
+    "url": "/gameMedia/static/media/coreBallB.e3d9de03.jpg"
   },
   {
-    "revision": "f627f5fa941775512326e1731342fbc5",
-    "url": "/gameMedia/static/media/firePlaceB.f627f5fa.jpg"
+    "revision": "a8cc74771be40b241c60d1b3a29fb121",
+    "url": "/gameMedia/static/media/firePlaceB.a8cc7477.jpg"
   },
   {
     "revision": "20cc30892558e4eadab8f86f09f116e0",
     "url": "/gameMedia/static/media/gameMediaLogo.20cc3089.png"
   },
   {
-    "revision": "c551c0f55eca4859e271830efc8afee9",
-    "url": "/gameMedia/static/media/minerSaurB.c551c0f5.jpg"
+    "revision": "c93e82a68f602676e36dfdc45b9d3b6b",
+    "url": "/gameMedia/static/media/minerSaurB.c93e82a6.jpg"
   },
   {
     "revision": "19fd088b4c6455542571249696756bf4",
@@ -60,12 +60,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gameMedia/static/media/nightmareLogo.5fdd0965.png"
   },
   {
-    "revision": "925a27ead87ff88ac0c506a4a08c5152",
-    "url": "/gameMedia/static/media/saviorB.925a27ea.jpg"
+    "revision": "cf6debebc0535f95014bafa5873729a8",
+    "url": "/gameMedia/static/media/oasisB.cf6debeb.jpg"
   },
   {
-    "revision": "556caeb7b1da1b517026f9b5c5af959c",
-    "url": "/gameMedia/static/media/shieldB.556caeb7.jpg"
+    "revision": "3ceaa1a039b6c8c8c46c2480ac9c59df",
+    "url": "/gameMedia/static/media/phantomThiefB.3ceaa1a0.jpg"
+  },
+  {
+    "revision": "60df66a9e6d0fac24a830eed7a861ef0",
+    "url": "/gameMedia/static/media/saviorB.60df66a9.jpg"
+  },
+  {
+    "revision": "df53ba4a5279b70be47d8b96b6abc350",
+    "url": "/gameMedia/static/media/shieldB.df53ba4a.jpg"
   },
   {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
@@ -84,16 +92,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gameMedia/static/media/slick.f97e3bbf.svg"
   },
   {
-    "revision": "1807ecc1a8b67f0c2bea0157534d8c8d",
-    "url": "/gameMedia/static/media/starHeroB.1807ecc1.jpg"
+    "revision": "c1062883077554296b859d1cade05137",
+    "url": "/gameMedia/static/media/starHeroB.c1062883.jpg"
   },
   {
     "revision": "205387b8f3cb7fd911d4809304e842bc",
     "url": "/gameMedia/static/media/witchSaga01.205387b8.jpg"
   },
   {
-    "revision": "eff5f8066dc8bb679c9fb757798db6d3",
-    "url": "/gameMedia/static/media/witchSagaB.eff5f806.jpg"
+    "revision": "006c3daf3520bad05eac16e1cb44dc0e",
+    "url": "/gameMedia/static/media/witchSagaB.006c3daf.jpg"
   },
   {
     "revision": "22a1e4719d4f7fc194326c2c3be79341",
