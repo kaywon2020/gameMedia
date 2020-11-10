@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c2de08dc3c3331a95af3b6232d245b9c",
+    "revision": "cc97a0736fd8d5476a54b24d6fa6b768",
     "url": "/gameMedia/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gameMedia/static/css/2.cd47af82.chunk.css"
   },
   {
-    "revision": "c15ab6d5ec9acbdc2041",
-    "url": "/gameMedia/static/css/main.aaa4ebde.chunk.css"
+    "revision": "1ad94cc81932a2252d6c",
+    "url": "/gameMedia/static/css/main.34ab1db3.chunk.css"
   },
   {
     "revision": "bc3162e7529b267ab7b9",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gameMedia/static/js/2.f23e413e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c15ab6d5ec9acbdc2041",
-    "url": "/gameMedia/static/js/main.401e597e.chunk.js"
+    "revision": "1ad94cc81932a2252d6c",
+    "url": "/gameMedia/static/js/main.14ac10b0.chunk.js"
   },
   {
     "revision": "8fa0a2eb5e2d20c85126",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gameMedia/static/media/minerSaurB.c551c0f5.jpg"
   },
   {
-    "revision": "a52f9c43b46cc7e5c38e8b28acc1d7a5",
-    "url": "/gameMedia/static/media/nightMareB.a52f9c43.jpg"
+    "revision": "19fd088b4c6455542571249696756bf4",
+    "url": "/gameMedia/static/media/nightMareB.19fd088b.png"
   },
   {
     "revision": "02549592b1670e4bd6ae2f74832f0f79",
