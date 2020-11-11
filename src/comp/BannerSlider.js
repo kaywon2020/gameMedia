@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import { GAME_DATA } from '../games/GameData';
 
 const BannerSlider = () => {
+    console.log(GAME_DATA[0]);
     const settings  = {
         dots: false,
         lazyload:true,

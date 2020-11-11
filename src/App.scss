@@ -11,6 +11,7 @@ body {
   overflow: scroll;
   scroll-behavior: smooth;
   display: flex;
+  height: 100vh;
   // 우클릭 설렉 금지
 	-webkit-font-smoothing: subpixel-antialiased;
 	-webkit-touch-callout: none;
@@ -40,7 +41,6 @@ body {
   justify-content: space-between;
   align-items: center;
   top: 0px;
-  right: 0px;
   // flex-direction: column;
   display: flex;
   background-color: white;
@@ -89,6 +89,13 @@ body {
       }
     }
   }
+}
+
+//footer 
+.footer{
+  margin: auto;
+  bottom: 0;
+  width: 60%;
 }
 
 // 슬라이드
