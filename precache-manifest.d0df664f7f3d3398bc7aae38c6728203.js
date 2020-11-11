@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "419dc7a54c937d104dda9d50a582f5b7",
+    "revision": "56c199bb293f9f5415708fa9da3cc6f8",
     "url": "/gameMedia/index.html"
   },
   {
-    "revision": "2ef445b0dd282767ae52",
+    "revision": "49bdb5fa551e570668bc",
     "url": "/gameMedia/static/css/2.cd47af82.chunk.css"
   },
   {
-    "revision": "ca324fa45e2ee9b3c671",
-    "url": "/gameMedia/static/css/main.7df128fc.chunk.css"
+    "revision": "829281ee42f52cce1b44",
+    "url": "/gameMedia/static/css/main.f47b48aa.chunk.css"
   },
   {
-    "revision": "2ef445b0dd282767ae52",
-    "url": "/gameMedia/static/js/2.5c1fb65a.chunk.js"
+    "revision": "49bdb5fa551e570668bc",
+    "url": "/gameMedia/static/js/2.d168f486.chunk.js"
   },
   {
     "revision": "6c99299aa0ccf7cd363681b2638ef8ef",
-    "url": "/gameMedia/static/js/2.5c1fb65a.chunk.js.LICENSE.txt"
+    "url": "/gameMedia/static/js/2.d168f486.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ca324fa45e2ee9b3c671",
-    "url": "/gameMedia/static/js/main.9ceac8d0.chunk.js"
+    "revision": "829281ee42f52cce1b44",
+    "url": "/gameMedia/static/js/main.d9eed407.chunk.js"
   },
   {
     "revision": "8fa0a2eb5e2d20c85126",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gameMedia/static/media/firePlaceB.a8cc7477.jpg"
   },
   {
-    "revision": "20cc30892558e4eadab8f86f09f116e0",
-    "url": "/gameMedia/static/media/gameMediaLogo.20cc3089.png"
+    "revision": "e9d1845412243a576ff64492da0cce8b",
+    "url": "/gameMedia/static/media/gameMediaLogo.e9d18454.png"
   },
   {
     "revision": "c93e82a68f602676e36dfdc45b9d3b6b",
