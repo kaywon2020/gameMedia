@@ -33,20 +33,61 @@ body {
 // 헤더
 .header{
   height: fit-content;
-  width: 100%;
-  justify-content: center;
+  margin: auto;
+  width: 60%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  justify-content: space-between;
   align-items: center;
   top: 0px;
   right: 0px;
-  flex-direction: column;
+  // flex-direction: column;
   display: flex;
   background-color: white;
-  a{
-    font-weight: 400;
-    font-size: 20px;
-    padding: 0 15px;
-    color: #010101;
-    text-decoration: none;
+  .gameLogo{ 
+    img{
+     width: 213px;
+     height: 65px;
+     margin: 20px 0;
+    }
+  }
+  .navi{
+    height: 65px;
+    display: flex;
+    a{
+      position: relative;
+      font-weight: 500;
+      letter-spacing: 0.25em;
+      font-size: 16px;
+      padding: 19px 15px;
+      color: #010101;
+      text-decoration: none;
+      transition: all 0.2s ease-in-out;
+
+      &::after{
+        position: absolute;
+        width: 100%;
+        right: 0;
+        bottom: 0;
+        content: "";
+        height: 0;
+        background: #010101;
+        transition: all 0.1s ease-in-out;
+      }
+      &:hover{
+        color: #666666;
+        &::after{
+          height: 5%;
+          background: #666666;
+        }
+      }
+      &.active{
+        &::after{
+          height: 5%;
+          background: #010101;
+        }
+      }
+    }
   }
 }
 
@@ -79,7 +120,7 @@ body {
       .gameLink{
         cursor: pointer;
         text-decoration: none;
-        color:black ;
+        color:#fff ;
       }
 
       +img{
@@ -88,7 +129,7 @@ body {
       }
 
       &:hover{
-        background-color: rgba($color: #fff, $alpha: 0.8);
+        background-color: rgba($color: #666666, $alpha: 0.6);
         +img{
           transform: scale(1.1);
           z-index: -1;
