@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "db8a47259eb25bf9ebb6648dfdb9102e",
+    "revision": "78701d4ccbbdf22b2d2edd60ad3210b9",
     "url": "/gameMedia/index.html"
   },
   {
-    "revision": "2ef445b0dd282767ae52",
+    "revision": "d5a32e20c482d7aab8a7",
     "url": "/gameMedia/static/css/2.cd47af82.chunk.css"
   },
   {
-    "revision": "826d0ab4aa04387fd994",
+    "revision": "d65ac604b04ceb157360",
     "url": "/gameMedia/static/css/main.62d4e210.chunk.css"
   },
   {
-    "revision": "2ef445b0dd282767ae52",
-    "url": "/gameMedia/static/js/2.5c1fb65a.chunk.js"
+    "revision": "d5a32e20c482d7aab8a7",
+    "url": "/gameMedia/static/js/2.e4200b8c.chunk.js"
   },
   {
     "revision": "6c99299aa0ccf7cd363681b2638ef8ef",
-    "url": "/gameMedia/static/js/2.5c1fb65a.chunk.js.LICENSE.txt"
+    "url": "/gameMedia/static/js/2.e4200b8c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "826d0ab4aa04387fd994",
-    "url": "/gameMedia/static/js/main.7aace314.chunk.js"
+    "revision": "d65ac604b04ceb157360",
+    "url": "/gameMedia/static/js/main.4ea808db.chunk.js"
   },
   {
     "revision": "8fa0a2eb5e2d20c85126",
@@ -50,14 +50,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "19fd088b4c6455542571249696756bf4",
     "url": "/gameMedia/static/media/nightMareB.19fd088b.png"
-  },
-  {
-    "revision": "02549592b1670e4bd6ae2f74832f0f79",
-    "url": "/gameMedia/static/media/nightmare01.02549592.jpg"
-  },
-  {
-    "revision": "5fdd09657f965f37c2f0fe018193c129",
-    "url": "/gameMedia/static/media/nightmareLogo.5fdd0965.png"
   },
   {
     "revision": "cf6debebc0535f95014bafa5873729a8",
@@ -96,19 +88,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gameMedia/static/media/starHeroB.c1062883.jpg"
   },
   {
-    "revision": "205387b8f3cb7fd911d4809304e842bc",
-    "url": "/gameMedia/static/media/witchSaga01.205387b8.jpg"
-  },
-  {
     "revision": "006c3daf3520bad05eac16e1cb44dc0e",
     "url": "/gameMedia/static/media/witchSagaB.006c3daf.jpg"
-  },
-  {
-    "revision": "22a1e4719d4f7fc194326c2c3be79341",
-    "url": "/gameMedia/static/media/witchSagaChar.22a1e471.png"
-  },
-  {
-    "revision": "a9fd9cc70dc708a03bb08622d60b3420",
-    "url": "/gameMedia/static/media/witchSagaLogo.a9fd9cc7.png"
   }
 ]);
