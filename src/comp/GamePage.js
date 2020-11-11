@@ -1,12 +1,13 @@
 import React from 'react';
 import Slider from 'react-slick';
+import YouTube from "react-youtube";
 import { GAME_DATA } from '../games/GameData'
 
 
 
 const GamePage = (props) => {
 
-    const gameId = props.id;
+    const Id = props.gameid;
 
     const sliderStngs = {
         dots: false,
@@ -32,8 +33,32 @@ const GamePage = (props) => {
     }
     return (
         <div className='gamePages'>
-            <div className={GAME_DATA[gameId].title}>
+            <div className={GAME_DATA[Id].classN}>
+                <Slider {...sliderStngs}>
+                    <div className='game-logo'>
+                        <img src={GAME_DATA[Id].banner_img}/>
+                    </div>
+                    <div className='game-logo'>
+                        <img src={GAME_DATA[Id].banner_img}/>
+                    </div>
+                    <div className='game-logo'>
+                        <img src={GAME_DATA[Id].banner_img}/>
+                    </div>
+                    <div className='game-logo'>
+                        <img src={GAME_DATA[Id].banner_img}/>
+                    </div>
+                </Slider>   
+                <YouTube videoId={GAME_DATA[Id].videoId} opts={ youtubeStngs} />
+                <a 
+                className={GAME_DATA[Id].classN}
+                target='_blank'
+                rel='noopener noreferrer'
+                href={GAME_DATA[Id].downLink} >
+                    Download
+                </a>
             </div>
         </div>   
     ) 
 }
+
+export default GamePage;

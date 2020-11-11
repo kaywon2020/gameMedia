@@ -1,10 +1,10 @@
 import React from 'react';
 import GamePage from '../comp/GamePage'
 
-const WitchSaga = () => {
+const MinerSaur = () => {
     return (
-        <GamePage gameid='1'/>
+        <GamePage gameid='2'/>
     );
 };
 
-export default WitchSaga
+export default MinerSaur

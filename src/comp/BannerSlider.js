@@ -4,7 +4,6 @@ import { NavLink } from "react-router-dom";
 import { GAME_DATA } from '../games/GameData';
 
 const BannerSlider = () => {
-    console.log(GAME_DATA[0]);
     const settings  = {
         dots: false,
         lazyload:true,
@@ -24,9 +23,9 @@ const BannerSlider = () => {
         <div className="slider-wrap fade-in">
             <Slider {...settings}>
                 {GAME_DATA.map((game) =>(
-                    <div key={game.id} id={game.title} className='game'>
+                    <div key={game.id} id={game.classN} className='game'>
                         <div className='gameBanner'>
-                            <NavLink className='gameLink' to={game.title}>
+                            <NavLink className='gameLink' to={game.classN}>
                                 {game.title}
                             </NavLink>
                         </div>    
