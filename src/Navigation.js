@@ -10,7 +10,7 @@ const Navigation = () => {
   return (
     <div className="header fade-in">
       <div className="gameLogo">
-        <img src={gameMediaLogo}/>
+        <img alt='gameMediaLogo' src={gameMediaLogo}/>
       </div>
       {/* <div className="playLogo">
         <img src={playLogo} />

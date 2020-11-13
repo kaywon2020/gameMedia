@@ -20,7 +20,9 @@ function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Navigation />
+      {/* 인포, 메인 */}
       <Route exact path="/" component={Home} />
+      {/* 게임라우트 */}
       <Route path="/NightMare" component={NightMare} />
       <Route path="/witchSaga" component={WitchSaga} />
       <Route path="/MinerSaur" component={MinerSaur} />

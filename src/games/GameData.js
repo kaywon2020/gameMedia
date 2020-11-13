@@ -20,7 +20,8 @@ export const GAME_DATA = [
         genre:'액션 로그라이크',
         banner_img: nightMareB,
         videoId:'i8JYLnZPHTk',
-        downLink:'https://drive.google.com/file/d/1ORDNpB67dqJ1ebaYDianWHziBxw7G-5O/view?usp=sharing'
+        downLink:'https://drive.google.com/file/d/1ORDNpB67dqJ1ebaYDianWHziBxw7G-5O/view?usp=sharing',
+        developer:[{'조희승':'기획'},{'김기석':'프로그래밍'},{'이유정':'아트'},{'이재민':'아트'},{'전현준':'아트'},{'유지영':'아트'}]
     },
     {
         id: 1,
@@ -31,7 +32,8 @@ export const GAME_DATA = [
         genre:'3D 슈팅 로그라이크',
         banner_img: witchSagaB,
         videoId:'J3EbrfY0ApI',
-        downLink:'https://drive.google.com/file/d/1y5-Tq_gy6fY4nBBvjsA_KHroOUtoMN3E/view?usp=sharing'
+        downLink:'https://drive.google.com/file/d/1y5-Tq_gy6fY4nBBvjsA_KHroOUtoMN3E/view?usp=sharing',
+        developer:{}
     },
     {
         id: 2,
@@ -42,7 +44,8 @@ export const GAME_DATA = [
         genre:'횡스크롤 로그라이크',
         banner_img: minerSaurB,
         videoId:'9zS0SVvsMVg',
-        downLink:'https://drive.google.com/file/d/1ACVh5uP4scSbBBuE2hxCXFOROQkrpij1/view?usp=sharing'
+        downLink:'https://drive.google.com/file/d/1ACVh5uP4scSbBBuE2hxCXFOROQkrpij1/view?usp=sharing',
+        developer:{}
     },
     {
         id: 3,
@@ -53,7 +56,8 @@ export const GAME_DATA = [
         genre:'액션 플랫포머',
         banner_img: shieldB,
         videoId:'N42OpPFwPJA',
-        downLink:'https://drive.google.com/drive/folders/1Eu1o-DvSJBttefY4KLAVgBV3hFO3TCD2?usp=sharing'
+        downLink:'https://drive.google.com/drive/folders/1Eu1o-DvSJBttefY4KLAVgBV3hFO3TCD2?usp=sharing',
+        developer:{}
     },
     {
         id: 4,
@@ -64,7 +68,8 @@ export const GAME_DATA = [
         genre:'2D 심리대전',
         banner_img: saviorB,
         videoId:'mQsHZns5PmY',
-        downLink:'https://drive.google.com/drive/u/0/folders/1LOwvUWEgrpumP7qo8P5tJSbBY3W0Il7F'
+        downLink:'https://drive.google.com/drive/u/0/folders/1LOwvUWEgrpumP7qo8P5tJSbBY3W0Il7F',
+        developer:{}
     },
     {
         id: 5,
@@ -75,7 +80,8 @@ export const GAME_DATA = [
         genre:'캐주얼 액션',
         banner_img: starHeroB,
         videoId:'3YR45NKoW48',
-        downLink:''
+        downLink:'',
+        developer:{}
     },
     {
         id: 6,
@@ -86,7 +92,8 @@ export const GAME_DATA = [
         genre:'디펜스',
         banner_img: artBusterB,
         videoId:'9e_Gpr0mEbA',
-        downLink:'https://drive.google.com/drive/u/1/folders/1xasIU8JrD-9df77UYqcf37OKNnSs4Efn'
+        downLink:'https://drive.google.com/drive/u/1/folders/1xasIU8JrD-9df77UYqcf37OKNnSs4Efn',
+        developer:{}
     },
     {
         id: 7,
@@ -97,7 +104,8 @@ export const GAME_DATA = [
         genre:'3D 퍼즐 어드벤쳐',
         banner_img: oasisB,
         videoId:'BNHIXZ2asrI',
-        downLink:'https://drive.google.com/file/d/1tcYotIquBCKfVR95e-xwn_9tCIpc2h8v/view?usp=sharing'
+        downLink:'https://drive.google.com/file/d/1tcYotIquBCKfVR95e-xwn_9tCIpc2h8v/view?usp=sharing',
+        developer:{}
     },
     {
         id: 8,
@@ -108,7 +116,8 @@ export const GAME_DATA = [
         genre:'3D 슈팅 대전액션',
         banner_img: coreBallB,
         videoId:'ypuS4UuQSH4',
-        downLink:'https://drive.google.com/file/d/1AngoQAaTMNEr-rEzMU4NZQUtrT7-OPAB/view?usp=sharing'
+        downLink:'https://drive.google.com/file/d/1AngoQAaTMNEr-rEzMU4NZQUtrT7-OPAB/view?usp=sharing',
+        developer:{}
     },
     {
         id: 9,
@@ -119,7 +128,8 @@ export const GAME_DATA = [
         genre:'액션 플랫포머',
         banner_img: firePlaceB,
         videoId:'KZlNBegID3I',
-        downLink:'https://drive.google.com/file/d/1rVVRT1QHthh_B-Z591iY3nB6YON3vo1X/view?usp=sharing'
+        downLink:'https://drive.google.com/file/d/1rVVRT1QHthh_B-Z591iY3nB6YON3vo1X/view?usp=sharing',
+        developer:{}
     },
     {
         id: 10,
@@ -130,6 +140,7 @@ export const GAME_DATA = [
         genre:'미스터리 추리 어드벤쳐',
         banner_img: phamtomThiefB,
         videoId:'kZgkvv7vE_o',
-        downLink:'https://drive.google.com/file/d/1AvY39YwZlVnu6IkF59gzQln9K6vdIo_J/view?usp=sharing'
+        downLink:'https://drive.google.com/file/d/1AvY39YwZlVnu6IkF59gzQln9K6vdIo_J/view?usp=sharing',
+        developer:{}
     },    
 ]

@@ -22,7 +22,8 @@ const GamePage = (props) => {
         centerMode:true,
         pauseOnHover:true,
         focusOnSelect:true,
-        variableWidth: true,
+        variableWidth: false,
+
     };
     const youtubeStngs = {
         width: "640",
@@ -31,23 +32,45 @@ const GamePage = (props) => {
           autoplay: 0,
         },
     }
+
+    const developers = GAME_DATA[Id].developer
+
+    console.log(developers);
+    console.log(developers[1]);
+    console.log(Object.keys(developers[1])[0]);
+    console.log(developers[1][Object.keys(developers[1])[0]]);
+
     return (
         <div className='gamePages'>
+            <div className='developer'>
+                {developers.map((member) => (
+                    <div key={Object.keys(member)[0]} className='dev-wraper'>    
+                        <div className='dev-member'>{
+                        Object.keys(member)[0]
+                        }</div>
+                        <div className='dev-position'>{
+                        member[Object.keys(member)[0]]
+                        }</div>
+                    </div>
+                ))}
+            </div>
             <div className={GAME_DATA[Id].classN}>
-                <Slider {...sliderStngs}>
-                    <div className='game-logo'>
-                        <img src={GAME_DATA[Id].banner_img}/>
-                    </div>
-                    <div className='game-logo'>
-                        <img src={GAME_DATA[Id].banner_img}/>
-                    </div>
-                    <div className='game-logo'>
-                        <img src={GAME_DATA[Id].banner_img}/>
-                    </div>
-                    <div className='game-logo'>
-                        <img src={GAME_DATA[Id].banner_img}/>
-                    </div>
-                </Slider>   
+                <div className='grad-wrapper'>
+                    <Slider {...sliderStngs}>
+                        <div className='grad-img'>
+                            <img alt='game-logo-img' src={GAME_DATA[Id].banner_img}/>
+                        </div>
+                        <div className='grad-img'>
+                            <img src={GAME_DATA[Id].banner_img}/>
+                        </div>
+                        <div className='grad-img'>
+                            <img src={GAME_DATA[Id].banner_img}/>
+                        </div>
+                        <div className='grad-img'>
+                            <img src={GAME_DATA[Id].banner_img}/>
+                        </div>
+                    </Slider>
+                </div>   
                 <YouTube videoId={GAME_DATA[Id].videoId} opts={ youtubeStngs} />
                 <a 
                 className={GAME_DATA[Id].classN}
