@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/gameMedia/static/css/main.62d4e210.chunk.css",
-    "main.js": "/gameMedia/static/js/main.4ea808db.chunk.js",
-    "main.js.map": "/gameMedia/static/js/main.4ea808db.chunk.js.map",
+    "main.css": "/gameMedia/static/css/main.949164d4.chunk.css",
+    "main.js": "/gameMedia/static/js/main.60f3fbda.chunk.js",
+    "main.js.map": "/gameMedia/static/js/main.60f3fbda.chunk.js.map",
     "runtime-main.js": "/gameMedia/static/js/runtime-main.18854cf4.js",
     "runtime-main.js.map": "/gameMedia/static/js/runtime-main.18854cf4.js.map",
     "static/css/2.cd47af82.chunk.css": "/gameMedia/static/css/2.cd47af82.chunk.css",
     "static/js/2.e4200b8c.chunk.js": "/gameMedia/static/js/2.e4200b8c.chunk.js",
     "static/js/2.e4200b8c.chunk.js.map": "/gameMedia/static/js/2.e4200b8c.chunk.js.map",
     "index.html": "/gameMedia/index.html",
-    "precache-manifest.187159ebee722d31f7df82edb5650b52.js": "/gameMedia/precache-manifest.187159ebee722d31f7df82edb5650b52.js",
+    "precache-manifest.c0b543583af607ad86f3e3c8cb6d5dbf.js": "/gameMedia/precache-manifest.c0b543583af607ad86f3e3c8cb6d5dbf.js",
     "service-worker.js": "/gameMedia/service-worker.js",
     "static/css/2.cd47af82.chunk.css.map": "/gameMedia/static/css/2.cd47af82.chunk.css.map",
-    "static/css/main.62d4e210.chunk.css.map": "/gameMedia/static/css/main.62d4e210.chunk.css.map",
+    "static/css/main.949164d4.chunk.css.map": "/gameMedia/static/css/main.949164d4.chunk.css.map",
     "static/js/2.e4200b8c.chunk.js.LICENSE.txt": "/gameMedia/static/js/2.e4200b8c.chunk.js.LICENSE.txt",
     "static/media/artBusterB.jpg": "/gameMedia/static/media/artBusterB.07583908.jpg",
     "static/media/coreBallB.jpg": "/gameMedia/static/media/coreBallB.e3d9de03.jpg",
@@ -32,7 +32,7 @@
     "static/js/runtime-main.18854cf4.js",
     "static/css/2.cd47af82.chunk.css",
     "static/js/2.e4200b8c.chunk.js",
-    "static/css/main.62d4e210.chunk.css",
-    "static/js/main.4ea808db.chunk.js"
+    "static/css/main.949164d4.chunk.css",
+    "static/js/main.60f3fbda.chunk.js"
   ]
 }
