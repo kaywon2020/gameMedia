@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/gameMedia/static/css/main.227726fd.chunk.css",
-    "main.js": "/gameMedia/static/js/main.531bbed9.chunk.js",
-    "main.js.map": "/gameMedia/static/js/main.531bbed9.chunk.js.map",
+    "main.css": "/gameMedia/static/css/main.455c3da4.chunk.css",
+    "main.js": "/gameMedia/static/js/main.822b95b4.chunk.js",
+    "main.js.map": "/gameMedia/static/js/main.822b95b4.chunk.js.map",
     "runtime-main.js": "/gameMedia/static/js/runtime-main.18854cf4.js",
     "runtime-main.js.map": "/gameMedia/static/js/runtime-main.18854cf4.js.map",
     "static/css/2.cd47af82.chunk.css": "/gameMedia/static/css/2.cd47af82.chunk.css",
-    "static/js/2.e4200b8c.chunk.js": "/gameMedia/static/js/2.e4200b8c.chunk.js",
-    "static/js/2.e4200b8c.chunk.js.map": "/gameMedia/static/js/2.e4200b8c.chunk.js.map",
+    "static/js/2.e489e195.chunk.js": "/gameMedia/static/js/2.e489e195.chunk.js",
+    "static/js/2.e489e195.chunk.js.map": "/gameMedia/static/js/2.e489e195.chunk.js.map",
     "index.html": "/gameMedia/index.html",
-    "precache-manifest.04fcbd6e2cdfd1a90ee54b5f68b5232c.js": "/gameMedia/precache-manifest.04fcbd6e2cdfd1a90ee54b5f68b5232c.js",
+    "precache-manifest.e9d96783ddf265b382cefc6d472ffa60.js": "/gameMedia/precache-manifest.e9d96783ddf265b382cefc6d472ffa60.js",
     "service-worker.js": "/gameMedia/service-worker.js",
     "static/css/2.cd47af82.chunk.css.map": "/gameMedia/static/css/2.cd47af82.chunk.css.map",
-    "static/css/main.227726fd.chunk.css.map": "/gameMedia/static/css/main.227726fd.chunk.css.map",
-    "static/js/2.e4200b8c.chunk.js.LICENSE.txt": "/gameMedia/static/js/2.e4200b8c.chunk.js.LICENSE.txt",
+    "static/css/main.455c3da4.chunk.css.map": "/gameMedia/static/css/main.455c3da4.chunk.css.map",
+    "static/js/2.e489e195.chunk.js.LICENSE.txt": "/gameMedia/static/js/2.e489e195.chunk.js.LICENSE.txt",
     "static/media/artBusterB.jpg": "/gameMedia/static/media/artBusterB.07583908.jpg",
     "static/media/coreBallB.jpg": "/gameMedia/static/media/coreBallB.e3d9de03.jpg",
     "static/media/firePlaceB.jpg": "/gameMedia/static/media/firePlaceB.a8cc7477.jpg",
@@ -31,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.18854cf4.js",
     "static/css/2.cd47af82.chunk.css",
-    "static/js/2.e4200b8c.chunk.js",
-    "static/css/main.227726fd.chunk.css",
-    "static/js/main.531bbed9.chunk.js"
+    "static/js/2.e489e195.chunk.js",
+    "static/css/main.455c3da4.chunk.css",
+    "static/js/main.822b95b4.chunk.js"
   ]
 }
