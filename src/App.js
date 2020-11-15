@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Home from './Home';
+import BannerList from './comp/BannerList';
 import NightMare from './games/NightMare'
 import WitchSaga from './games/WitchSaga'
 import MinerSaur from './games/MinerSaur'
@@ -22,6 +23,7 @@ function App() {
       <Navigation />
       {/* 인포, 메인 */}
       <Route exact path="/" component={Home} />
+      <Route exact path="/info" component={BannerList} />
       {/* 게임라우트 */}
       <Route path="/NightMare" component={NightMare} />
       <Route path="/witchSaga" component={WitchSaga} />

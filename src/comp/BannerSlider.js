@@ -26,7 +26,10 @@ const BannerSlider = () => {
                     <div key={game.id} id={game.classN} className='game'>
                         <div className='gameBanner'>
                             <NavLink className='gameLink' to={game.classN}>
-                                {game.title}
+                                <div>{game.title}</div>
+                                <div>{game.platform}</div>
+                                <div>{game.genre}</div>
+                                <div>{game.team}</div>
                             </NavLink>
                         </div>    
                         <img alt='bannerImg' src={game.banner_img}/>

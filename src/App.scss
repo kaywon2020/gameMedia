@@ -96,7 +96,7 @@ body {
 }
 
 // 슬라이드
-.slider-wrap{
+.slider-wrap,.banner-list{
   width: 100%;
   overflow: hidden;
   height: 330px;
@@ -119,12 +119,18 @@ body {
       z-index: 1001;
       width: 750px;
       height: 330px;
-      transition: background-color 0.25s ease-in-out;
+      transition: background-color 0.2s ease-in-out;
 
       .gameLink{
         cursor: pointer;
         text-decoration: none;
+        display: flex;
+        flex-direction: column;
         color:#fff ;
+        // font-size: 12px;
+        transform: scale(1);
+        opacity: 0;
+        transition: transform 0.3s ease-in-out, opacity 0.25s ease-in-out;
       }
 
       +img{
@@ -134,9 +140,65 @@ body {
 
       &:hover{
         background-color: rgba($color: #666666, $alpha: 0.6);
+
+        .gameLink{
+          // font-size: 16px;
+          opacity: 1;
+          transform: scale(1.1);
+          font-size: 16px;
+        }
+
         +img{
           transform: scale(1.1);
           z-index: -1;
+        }
+      }
+    }
+  }
+}
+
+.banner-list{
+  width: 60%;
+  height: unset;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+  // position: relative;
+  
+  .banner-row{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 22px;
+    .game{
+      width: 369.84px;
+      height: 162.29px;
+      .gameBanner{
+        width: 369.84px;
+        height: 162.29px;
+
+        .gameLink{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          height: 100%;
+        }
+
+        +img{
+          width: 369.84px;
+          height: 162.29px;
+          transform: scale(1);
+          transition: transform 0.25s ease-in-out;
+        }
+
+        &:hover{
+          background-color: rgba($color: #666666, $alpha: 0.6);
+          +img{
+            transform: scale(1.1);
+            z-index: -1;
+          }
         }
       }
     }
