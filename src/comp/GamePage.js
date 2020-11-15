@@ -1,6 +1,7 @@
 import React from 'react';
 import Slider from 'react-slick';
 import YouTube from "react-youtube";
+import { NavLink } from "react-router-dom";
 import { GAME_DATA } from '../games/GameData'
 
 
@@ -10,7 +11,7 @@ const GamePage = (props) => {
     const Id = props.gameid;
 
     const sliderStngs = {
-        dots: false,
+        dots: true,
         lazyload:true,
         infinite: true,
         speed: 1000,
@@ -26,8 +27,8 @@ const GamePage = (props) => {
 
     };
     const youtubeStngs = {
-        width: "640",
-        height: "390",
+        width: '886px',
+        height: "554px",
         playerVars: {
           autoplay: 0,
         },
@@ -35,26 +36,29 @@ const GamePage = (props) => {
 
     const developers = GAME_DATA[Id].developer
 
-    console.log(developers);
-    console.log(developers[1]);
-    console.log(Object.keys(developers[1])[0]);
-    console.log(developers[1][Object.keys(developers[1])[0]]);
+    // console.log(developers);
+    // console.log(developers[1]);
+    // console.log(Object.keys(developers[1])[0]);
+    // console.log(developers[1][Object.keys(developers[1])[0]]);
 
     return (
         <div className='gamePages'>
-            <div className='developer'>
-                {developers.map((member) => (
-                    <div key={Object.keys(member)[0]} className='dev-wraper'>    
-                        <div className='dev-member'>{
-                        Object.keys(member)[0]
-                        }</div>
-                        <div className='dev-position'>{
-                        member[Object.keys(member)[0]]
-                        }</div>
-                    </div>
-                ))}
-            </div>
-            <div className={GAME_DATA[Id].classN}>
+            <div className='gameList'>
+                <div className='gamePTitle'>
+                GAME LIST
+                </div>    
+                {GAME_DATA.map((game) =>(
+                    <div className='gameTap'>
+                        <NavLink className='gameLink' to={game.classN}>
+                            {game.title}
+                        </NavLink>
+                    </div>    
+                    ))}
+                </div>
+            <div className={GAME_DATA[Id].classN+' fade-in'}>
+                <div className='youTubeWrap'>
+                    <YouTube className='youTube' videoId={GAME_DATA[Id].videoId} opts={ youtubeStngs} />
+                </div>
                 <div className='grad-wrapper'>
                     <Slider {...sliderStngs}>
                         <div className='grad-img'>
@@ -71,7 +75,7 @@ const GamePage = (props) => {
                         </div>
                     </Slider>
                 </div>   
-                <YouTube videoId={GAME_DATA[Id].videoId} opts={ youtubeStngs} />
+
                 <a 
                 className={GAME_DATA[Id].classN}
                 target='_blank'
@@ -79,6 +83,26 @@ const GamePage = (props) => {
                 href={GAME_DATA[Id].downLink} >
                     Download
                 </a>
+                <div className='gamePTitle'>
+                    <div className='gamPmainT'>
+                    개발진
+                    </div>
+                    <div className='gamPsubT'>
+                    Developers
+                    </div>
+                </div>
+                <div className='developer'>
+                {developers.map((member) => (
+                    <div key={Object.keys(member)[0]} className='dev-wraper'>    
+                        <div className='dev-member'>{
+                        Object.keys(member)[0]
+                        }</div>
+                        <div className='dev-position' >{
+                        member[Object.keys(member)[0]]
+                        }</div>
+                    </div>
+                ))}
+            </div>
             </div>
         </div>   
     ) 

@@ -33,7 +33,7 @@ export const GAME_DATA = [
         banner_img: witchSagaB,
         videoId:'J3EbrfY0ApI',
         downLink:'https://drive.google.com/file/d/1y5-Tq_gy6fY4nBBvjsA_KHroOUtoMN3E/view?usp=sharing',
-        developer:{}
+        developer:[{'여나경':'UI, 프로그래밍'},{'김어진':'3D 캐릭터, 애니메이션'},{'김준영':'기획, 텍스쳐'},{'이영서':'3D 몬스터, 애니메이션'},{'이윤철':'3D 배경, 애니메이션'},{'김수빈':'2D 캐릭터, 텍스쳐'},{'장수영':'2D 배경, 텍스쳐'},{'김정민':'UI 아이콘, 타이틀'},]
     },
     {
         id: 2,
@@ -45,7 +45,7 @@ export const GAME_DATA = [
         banner_img: minerSaurB,
         videoId:'9zS0SVvsMVg',
         downLink:'https://drive.google.com/file/d/1ACVh5uP4scSbBBuE2hxCXFOROQkrpij1/view?usp=sharing',
-        developer:{}
+        developer:[{'임교영':'기획'},{'신동찬':'프로그래밍'},{'김민기':'배경/이펙트 디자인'},{'이윤범':'UI 디자인'},{'최영준':'캐릭터 디자인'},{'박준혁':'캐릭터 디자인'}]
     },
     {
         id: 3,
@@ -57,7 +57,7 @@ export const GAME_DATA = [
         banner_img: shieldB,
         videoId:'N42OpPFwPJA',
         downLink:'https://drive.google.com/drive/folders/1Eu1o-DvSJBttefY4KLAVgBV3hFO3TCD2?usp=sharing',
-        developer:{}
+        developer:[{'':''},{'':''},{'':''},{'':''},{'':''},{'':''},]
     },
     {
         id: 4,
@@ -69,7 +69,7 @@ export const GAME_DATA = [
         banner_img: saviorB,
         videoId:'mQsHZns5PmY',
         downLink:'https://drive.google.com/drive/u/0/folders/1LOwvUWEgrpumP7qo8P5tJSbBY3W0Il7F',
-        developer:{}
+        developer:[{'':''},{'':''},{'':''},{'':''},{'':''},{'':''},]
     },
     {
         id: 5,
@@ -81,7 +81,7 @@ export const GAME_DATA = [
         banner_img: starHeroB,
         videoId:'3YR45NKoW48',
         downLink:'',
-        developer:{}
+        developer:[{'':''},{'':''},{'':''},{'':''},{'':''},{'':''},]
     },
     {
         id: 6,
@@ -93,7 +93,7 @@ export const GAME_DATA = [
         banner_img: artBusterB,
         videoId:'9e_Gpr0mEbA',
         downLink:'https://drive.google.com/drive/u/1/folders/1xasIU8JrD-9df77UYqcf37OKNnSs4Efn',
-        developer:{}
+        developer:[{'':''},{'':''},{'':''},{'':''},{'':''},{'':''},]
     },
     {
         id: 7,
@@ -105,7 +105,7 @@ export const GAME_DATA = [
         banner_img: oasisB,
         videoId:'BNHIXZ2asrI',
         downLink:'https://drive.google.com/file/d/1tcYotIquBCKfVR95e-xwn_9tCIpc2h8v/view?usp=sharing',
-        developer:{}
+        developer:[{'':''},{'':''},{'':''},{'':''},{'':''},{'':''},]
     },
     {
         id: 8,
@@ -117,7 +117,7 @@ export const GAME_DATA = [
         banner_img: coreBallB,
         videoId:'ypuS4UuQSH4',
         downLink:'https://drive.google.com/file/d/1AngoQAaTMNEr-rEzMU4NZQUtrT7-OPAB/view?usp=sharing',
-        developer:{}
+        developer:[{'':''},{'':''},{'':''},{'':''},{'':''},{'':''},]
     },
     {
         id: 9,
@@ -129,7 +129,7 @@ export const GAME_DATA = [
         banner_img: firePlaceB,
         videoId:'KZlNBegID3I',
         downLink:'https://drive.google.com/file/d/1rVVRT1QHthh_B-Z591iY3nB6YON3vo1X/view?usp=sharing',
-        developer:{}
+        developer:[{'':''},{'':''},{'':''},{'':''},{'':''},{'':''},]
     },
     {
         id: 10,
@@ -141,6 +141,6 @@ export const GAME_DATA = [
         banner_img: phamtomThiefB,
         videoId:'kZgkvv7vE_o',
         downLink:'https://drive.google.com/file/d/1AvY39YwZlVnu6IkF59gzQln9K6vdIo_J/view?usp=sharing',
-        developer:{}
+        developer:[{'':''},{'':''},{'':''},{'':''},{'':''},{'':''},]
     },    
 ]
