@@ -1,8 +1,26 @@
 // NotoSansKR
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap');
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
-  font-family: 'Noto Sans KR', sans-serif; 
+  font-family: 'GmarketSansMedium'; 
   -ms-overflow-style: none; 
   margin: 0px;
   overflow: scroll;
@@ -32,7 +50,7 @@ body {
 .header{
   height: fit-content;
   margin: auto;
-  width: 60%;
+  width: 1152px;
   margin-top: 20px;
   margin-bottom: 30px;
   justify-content: space-between;
@@ -53,7 +71,7 @@ body {
     display: flex;
     a{
       position: relative;
-      font-weight: 500;
+      font-family: 'GmarketSansBold';
       letter-spacing: 0.25em;
       font-size: 16px;
       padding: 19px 15px;
@@ -92,7 +110,7 @@ body {
 .footer{
   margin: auto;
   bottom: 0;
-  width: 60%;
+  width: 1152px;
 }
 
 // 슬라이드
@@ -157,8 +175,15 @@ body {
   }
 }
 
+.projectT{
+  font-family: 'GmarketSansBold';
+  font-size: 28px;
+  width: 1152px;
+  margin: auto;
+}
+
 .banner-list{
-  width: 60%;
+  width: 1152px;
   height: unset;
   margin: auto;
   display: flex;
@@ -184,6 +209,26 @@ body {
           justify-content: center;
           width: 100%;
           height: 100%;
+
+          .game-TT{
+            font-family: 'GmarketSansBold';
+            font-size: 22px;
+            margin-bottom: 2px;
+          }
+          .game-P{
+            font-family: 'GmarketSansLight';
+            font-size: 6px;
+          }
+          .game-G{
+            font-family: 'GmarketSansLight';
+            font-size: 8px;
+          }
+          .game-T{
+            font-weight: 500;
+            font-size: 16px;
+            margin-top: 10px;
+          }
+
         }
 
         +img{
@@ -194,7 +239,7 @@ body {
         }
 
         &:hover{
-          background-color: rgba($color: #666666, $alpha: 0.6);
+          background-color: rgba($color: #474747, $alpha: 0.7);
           +img{
             transform: scale(1.1);
             z-index: -1;
@@ -206,7 +251,7 @@ body {
 }
 
 .gamePages{
-  width: 60%;
+  width: 1152px;
   margin:auto;
   display: flex;
   
@@ -231,7 +276,7 @@ body {
     align-items: center;
     justify-content: center;
     div{
-      width: 886px;
+      width: 921px;
       height: 554px;
     }
   }
@@ -239,29 +284,64 @@ body {
   .gameList{
     width: 20%;
     display: flex;
+    font-family: 'GmarketSansBold';
     flex-direction: column;
+    
     .gamePTitle{
-      font-weight: 600;
       letter-spacing: 0.25em;
       font-size: 18px;
       padding: 10px 0px;
+      display: flex;
+      justify-content: flex-start;
+      position: relative;
       color: #010101;
       text-decoration: none;
-      transition: all 0.2s ease-in-out;
+
+      &::after{
+        position: absolute;
+        content: "";
+        left: 0;
+        bottom: 16px;
+        width: 90%;
+        height: 3.25px;
+        background-color: #010101;
+      }
+      // transition: all 0.2s ease-in-out;
     }
 
     .gameTap{
       width: 50%;
+      height: 36px;
       .gameLink{
-        font-weight: 600;
+        font-family: 'GmarketSansMedium';
+        position: relative;
         letter-spacing: 0.1em;
         font-size: 16px;
         color: #010101;
         text-decoration: none;
-        transition: all 0.2s ease-in-out;
+        transition: color 0.2s ease-in-out;
         
+        .game_underBar{
+          position: absolute;
+          z-index: -1;
+          bottom: -2px;
+          right: -5px;
+          width: 0%;
+          height: 8px;
+          background-color: #dbdbdb;
+          transition: all 0.2s ease-in-out;
+        }
+
         &.active,&:hover{
-          color: #666666;
+          .game_underBar{
+            width: 85%;
+          }
+        }
+        &.active{
+          color: #010101;;
+        }
+        &:hover{
+          color: #8d8d8d;
         }
       }
     }
@@ -273,7 +353,7 @@ body {
     display: flex;
     .gamPmainT{
       width: max-content;
-      font-weight: 600;
+      font-family: 'GmarketSansBold';
       font-size: 36px;
       margin-right: 10px;
     }
@@ -303,7 +383,25 @@ body {
       }
     }
   }
+}
 
+.gamePTitle.Main{
+  width: 60%;
+  margin: auto;
+  height: 52px;
+  display: flex;
+  .gamPmainT{
+    width: max-content;
+    font-family: 'GmarketSansBold';
+    font-size: 36px;
+    margin-right: 10px;
+  }
+  .gamPsubT{
+    font-size: 18px;
+    display: flex;
+    width: max-content;
+    align-items: center;
+  }
 }
 
 //애니메이션

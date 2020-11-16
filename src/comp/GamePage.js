@@ -27,7 +27,7 @@ const GamePage = (props) => {
 
     };
     const youtubeStngs = {
-        width: '886px',
+        width: '921px',
         height: "554px",
         playerVars: {
           autoplay: 0,
@@ -44,18 +44,29 @@ const GamePage = (props) => {
     return (
         <div className='gamePages'>
             <div className='gameList'>
-                <div className='gamePTitle'>
+                {/* 졸전 리스트 */}
+                <div className='gamePTitle '>
                 GAME LIST
                 </div>    
                 {GAME_DATA.map((game) =>(
-                    <div className='gameTap'>
+                    <div key={game.classN+'01'} className='gameTap'>
                         <NavLink className='gameLink' to={game.classN}>
                             {game.title}
+                            <div className='game_underBar' />
                         </NavLink>
                     </div>    
                     ))}
                 </div>
+                {/* 게임 소개 페이지 */}
             <div className={GAME_DATA[Id].classN+' fade-in'}>
+                <div className='gamePTitle'>
+                    <div className='gamPmainT game'>
+                    {GAME_DATA[Id].title}
+                    </div>
+                    <div className='gamPsubT'>
+                    
+                    </div>
+                </div>
                 <div className='youTubeWrap'>
                     <YouTube className='youTube' videoId={GAME_DATA[Id].videoId} opts={ youtubeStngs} />
                 </div>
@@ -93,7 +104,7 @@ const GamePage = (props) => {
                 </div>
                 <div className='developer'>
                 {developers.map((member) => (
-                    <div key={Object.keys(member)[0]} className='dev-wraper'>    
+                    <div key={Object.keys(member)[0]+'02'} className='dev-wraper'>    
                         <div className='dev-member'>{
                         Object.keys(member)[0]
                         }</div>
