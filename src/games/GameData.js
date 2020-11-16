@@ -1,3 +1,4 @@
+//배너
 import nightMareB from '../imgs/nightMareB.png';
 import witchSagaB from '../imgs/witchSagaB.jpg';
 import minerSaurB from '../imgs/minerSaurB.jpg';
@@ -9,6 +10,59 @@ import oasisB from '../imgs/oasisB.jpg';
 import coreBallB from '../imgs/coreBallB.jpg';
 import firePlaceB from '../imgs/firePlaceB.jpg';
 import phamtomThiefB from '../imgs/phantomThiefB.jpg'
+//로고
+import nightMareLogo from '../imgs/nightMareLogo.png';
+import witchSagaLogo from '../imgs/witchSagaLogo.png';
+import minerSaurLogo from '../imgs/minerSaurLogo.png';
+import shieldLogo from '../imgs/shieldLogo.png';
+import saviorLogo from '../imgs/saviorLogo.png';
+import starHeroLogo from '../imgs/starHeroLogo.png';
+import artBusterLogo from '../imgs/artBusterLogo.png';
+import oasisLogo from '../imgs/oasisLogo.png';
+import coreBallLogo from '../imgs/coreBallLogo.png';
+import firePlaceLogo from '../imgs/firePlaceLogo.png';
+import phantomThiefLogo from '../imgs/phantomThiefLogo.png'
+//char
+import nightMareChar from '../imgs/nightMareChar.png';
+import witchSagaChar from '../imgs/witchSagaChar.png';
+import minerSaurChar from '../imgs/minerSaurChar.png';
+import shieldChar from '../imgs/shieldChar.png';
+import saviorChar from '../imgs/saviorChar.png';
+import starHeroChar from '../imgs/starHeroChar.png';
+import artBusterChar from '../imgs/artBusterChar.png';
+import oasisChar from '../imgs/oasisChar.png';
+import coreBallChar from '../imgs/coreBallChar.png';
+import firePlaceChar from '../imgs/firePlaceChar.png';
+import phantomThiefChar from '../imgs/phantomThiefChar.png';
+//01
+import nightMare01 from '../imgs/nightMare01.jpg';
+import witchSaga01 from '../imgs/witchSaga01.jpg';
+import minerSaur01 from '../imgs/minerSaur01.jpg';
+import shield01 from '../imgs/shield01.jpg';
+import savior01 from '../imgs/savior01.jpg';
+import starHero01 from '../imgs/starHero01.jpg';
+import artBuster01 from '../imgs/artBuster01.jpg';
+import oasis01 from '../imgs/oasis01.jpg';
+import coreBall01 from '../imgs/coreBall01.jpg';
+import firePlace01 from '../imgs/firePlace01.jpg';
+import phantomThief01 from '../imgs/phantomThief01.jpg'
+//02
+import nightMare02 from '../imgs/nightMare02.jpg';
+import witchSaga02 from '../imgs/witchSaga02.jpg';
+import minerSaur02 from '../imgs/minerSaur02.jpg';
+import shield02 from '../imgs/shield02.jpg';
+import savior02 from '../imgs/savior02.jpg';
+import starHero02 from '../imgs/starHero02.jpg';
+import artBuster02 from '../imgs/artBuster02.jpg';
+import oasis02 from '../imgs/oasis02.jpg';
+import coreBall02 from '../imgs/coreBall02.jpg';
+import firePlace02 from '../imgs/firePlace02.jpg';
+import phantomThief02 from '../imgs/phantomThief02.jpg'
+// import MinerSaur from './MinerSaur';
+// import Savior from './Savior';
+// import StarHeros from './StarHeros';
+// import FirePlace from './FirePlace';
+// import PhantomThief from './PhantomThief';
 
 export const GAME_DATA = [
     {
@@ -16,7 +70,11 @@ export const GAME_DATA = [
         title: 'NightMare',
         classN: 'NightMare',
         team: '맷돌',
-        platform: 'PC(Win10)',
+        illust_01: nightMare01,
+        illust_02: nightMare02,
+        Logo: nightMareLogo,
+        char: nightMareChar,
+        platform: 'PC (Win10)',
         genre:'액션 로그라이크',
         banner_img: nightMareB,
         videoId:'i8JYLnZPHTk',
@@ -29,7 +87,11 @@ export const GAME_DATA = [
         title: 'LittleWitchSaga',
         classN: 'WitchSaga',
         team: '졸작의 샘',
-        platform: 'PC(Win10)',
+        illust_01: witchSaga01,
+        illust_02: witchSaga02,
+        Logo: witchSagaLogo,
+        char: witchSagaChar,
+        platform: 'PC (Win10)',
         genre:'3D 슈팅 로그라이크',
         banner_img: witchSagaB,
         videoId:'J3EbrfY0ApI',
@@ -42,7 +104,11 @@ export const GAME_DATA = [
         title: 'MinerSaur',
         classN: 'MinerSaur',
         team: '네온박스',
-        platform: 'PC(Win10)',
+        illust_01: minerSaur01,
+        illust_02: minerSaur02,
+        Logo: minerSaurLogo,
+        char: minerSaurChar,
+        platform: 'PC (Win10)',
         genre:'횡스크롤 로그라이크',
         banner_img: minerSaurB,
         videoId:'9zS0SVvsMVg',
@@ -55,7 +121,11 @@ export const GAME_DATA = [
         title: '방패령',
         classN: 'ShieldGhost',
         team: 'ODH',
-        platform: 'PC(Win10)',
+        illust_01: shield01,
+        illust_02: shield02,
+        Logo: shieldLogo,
+        char: shieldChar,
+        platform: 'PC (Win10)',
         genre:'액션 플랫포머',
         banner_img: shieldB,
         videoId:'N42OpPFwPJA',
@@ -68,6 +138,10 @@ export const GAME_DATA = [
         title: 'Savior',
         classN: 'Savior',
         team: '무제',
+        illust_01: savior01,
+        illust_02: savior02,
+        Logo: saviorLogo,
+        char: saviorChar,
         platform: 'Android',
         genre:'2D 심리대전',
         banner_img: saviorB,
@@ -81,6 +155,10 @@ export const GAME_DATA = [
         title: 'StarHeros',
         classN: 'StarHeros',
         team: '새폴더',
+        illust_01: starHero01,
+        illust_02: starHero02,
+        Logo: starHeroLogo,
+        char: starHeroChar,
         platform: 'Android',
         genre:'캐주얼 액션',
         banner_img: starHeroB,
@@ -94,6 +172,10 @@ export const GAME_DATA = [
         title: 'ArtBusters',
         classN: 'ArtBusters',
         team: '필하모닉',
+        illust_01: artBuster01,
+        illust_02: artBuster02,
+        Logo: artBusterLogo,
+        char: artBusterChar,
         platform: 'Android',
         genre:'디펜스',
         banner_img: artBusterB,
@@ -107,11 +189,15 @@ export const GAME_DATA = [
         title: 'Oasis',
         classN: 'Oasis',
         team: '갈아만들배',
-        platform: 'PC(Win10)',
+        illust_01: oasis01,
+        illust_02: oasis02,
+        Logo: oasisLogo,
+        char: oasisChar,
+        platform: 'PC (Win10)',
         genre:'3D 퍼즐 어드벤쳐',
         banner_img: oasisB,
         videoId:'BNHIXZ2asrI',
-        downLink:'https://drive.google.com/file/d/1tcYotIquBCKfVR95e-xwn_9tCIPC(Win10)2h8v/view?usp=sharing',
+        downLink:'https://drive.google.com/file/d/1tcYotIquBCKfVR95e-xwn_9tCIPC (Win10)2h8v/view?usp=sharing',
         developer:[{'권동건':'기획'},{'김진혁':'프로그래밍'},{'이윤복':'AD'},{'염수진':'UI'},{'한지호':'3D'},{'윤성근':'3D'},{'이창식':'3D'},{'선하얀':'3D'},{'김병훈':'2D'},{'박지영':'2D'},{'김어진':'3D 어시'}],
         intro:'오아시스는 넓은 사막의 유적에서 일어난 이오나가 정령인 테라와 함께 길을 찾아 나서는 게임입니다. 고대 유적을 통해서 특수한 능력을 사용하여 길을 찾아보세요!'
     },
@@ -120,6 +206,10 @@ export const GAME_DATA = [
         title: 'CoreBallRush',
         classN: 'CoreBallRush',
         team: '군고구마',
+        illust_01: coreBall01,
+        illust_02: coreBall02,
+        Logo: coreBallLogo,
+        char: coreBallChar,
         platform: 'Android',
         genre:'3D 슈팅 대전액션',
         banner_img: coreBallB,
@@ -133,7 +223,11 @@ export const GAME_DATA = [
         title: 'FirePlace',
         classN: 'FirePlace',
         team: 'PIXEL',
-        platform: 'PC(Win10)',
+        illust_01: firePlace01,
+        illust_02: firePlace02,
+        Logo: firePlaceLogo,
+        char: firePlaceChar,
+        platform: 'PC (Win10)',
         genre:'액션 플랫포머',
         banner_img: firePlaceB,
         videoId:'KZlNBegID3I',
@@ -146,12 +240,16 @@ export const GAME_DATA = [
         title: 'PhantomThief',
         classN: 'PhantomThief',
         team: '슈프림알파',
-        platform: 'PC(Win10)',
+        illust_01: phantomThief01,
+        illust_02: phantomThief02,
+        Logo: phantomThiefLogo,
+        char: phantomThiefChar,
+        platform: 'PC (Win10)',
         genre:'미스터리 추리 어드벤쳐',
         banner_img: phamtomThiefB,
         videoId:'kZgkvv7vE_o',
         downLink:'https://drive.google.com/file/d/1AvY39YwZlVnu6IkF59gzQln9K6vdIo_J/view?usp=sharing',
         developer:[{'장현민':'기획,일러스트,컷신,애니메이션'},{'이서연':'기획,QA'},{'정영채':'컷신,캐릭터'},{'조은영':'오브젝트,아이템'},{'한련화':'오브젝트,배경'},{'전소영':'UI,아이템'},],
         intro:'눈을 떠보니 유령이 된 주인공 팬텀, 죽음의 원인을 알아내기 위해 자신의 저택에 향하게 됩니다. 살인의 흔적, 사람들의 대화, 4명의 용의자들을 조사하여 죽음의 비밀을 파헤쳐보세요.'
-    },    
+    },
 ]

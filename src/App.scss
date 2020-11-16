@@ -205,6 +205,7 @@ body {
 
         .gameLink{
           display: flex;
+          // font-weight: 500;
           align-items: center;
           justify-content: center;
           width: 100%;
@@ -224,7 +225,7 @@ body {
             font-size: 8px;
           }
           .game-T{
-            font-weight: 500;
+            // font-weight: 500;
             font-size: 16px;
             margin-top: 10px;
           }
@@ -263,9 +264,22 @@ body {
       display: flex;
       align-items: center;
       justify-content: center;
-      .grad-img{
-        width: max-content;
+      .slick-slider{
+        .slick-list{
+          width: 100%;
+          div{
+            width: 100%;
+          }
+          .grad-img{
+            height: 420px;
+            background-color: aquamarine;
+            img{
+              margin: auto;
+            }
+          }
+        }
       }
+
     }
   }
   //유튭
@@ -314,6 +328,7 @@ body {
       height: 36px;
       .gameLink{
         font-family: 'GmarketSansMedium';
+        font-weight: 600;
         position: relative;
         letter-spacing: 0.1em;
         font-size: 16px;
@@ -346,16 +361,20 @@ body {
       }
     }
   }
-  //게임 개발진
+  //게임 타이틀 
   .gamePTitle{
     width: 100%;
     height: 52px;
     display: flex;
+    margin: 20px 0;
     .gamPmainT{
       width: max-content;
       font-family: 'GmarketSansBold';
-      font-size: 36px;
+      font-size: 32px;
       margin-right: 10px;
+      &.gamePageT{
+        font-size: 36px;
+      }
     }
     .gamPsubT{
       font-size: 18px;
@@ -364,6 +383,7 @@ body {
       align-items: center;
     }
   }
+  //개발자 리스트
   .developer{
     width: 100%;
     display: flex;
@@ -376,16 +396,17 @@ body {
       margin: 10px 0px;
       .dev-member{
         text-align: center;
-        font-weight: 600;
+        font-family: 'GmarketSansBold';
       }
       .dev-position{
         text-align: center;
-        
+        word-break: keep-all;
+        // font-family: 'GmarketSansLight';
       }
     }
   }
 }
-
+// 메인 페이지
 .gamePTitle.Main{
   width: 1152px;
   margin: auto;

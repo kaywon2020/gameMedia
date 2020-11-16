@@ -18,9 +18,9 @@ const GamePage = (props) => {
         //1이상시 에러발생
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 3000,
-        centerMode:true,
+        // centerMode:true,
         pauseOnHover:true,
         focusOnSelect:true,
         variableWidth: false,
@@ -45,7 +45,7 @@ const GamePage = (props) => {
         <div className='gamePages'>
             <div className='gameList'>
                 {/* 졸전 리스트 */}
-                <div className='gamePTitle '>
+                <div className='gamePTitle'>
                 GAME LIST
                 </div>    
                 {GAME_DATA.map((game) =>(
@@ -59,34 +59,50 @@ const GamePage = (props) => {
                 </div>
                 {/* 게임 소개 페이지 */}
             <div className={GAME_DATA[Id].classN+' fade-in'}>
-                <div className='gamePTitle'>
-                    <div className='gamPmainT game'>
+                <div className='gamePTitle gamePageT'>
+                    <div className='gamPmainT gamePageT'>
                     {GAME_DATA[Id].title}
                     </div>
                     <div className='gamPsubT'>
-                    
+                    {GAME_DATA[Id].team}
                     </div>
                 </div>
                 <div className='youTubeWrap'>
                     <YouTube className='youTube' videoId={GAME_DATA[Id].videoId} opts={ youtubeStngs} />
                 </div>
+                {/* 스크린샷 */}
+                <div className='gamePTitle'>
+                    <div className='gamPmainT gamePage'>
+                    그래픽
+                    </div>
+                    <div className='gamPsubT'>
+                    Graphic
+                    </div>
+                </div>
                 <div className='grad-wrapper'>
                     <Slider {...sliderStngs}>
-                        <div className='grad-img'>
+                        {/* <div className='grad-img'>
                             <img alt='game-logo-img' src={GAME_DATA[Id].banner_img}/>
+                        </div> */}
+                        <div className='grad-img char'>
+                            <img src={GAME_DATA[Id].char}/>
                         </div>
-                        <div className='grad-img'>
-                            <img src={GAME_DATA[Id].banner_img}/>
+                        <div className='grad-img illust01'>
+                            <img src={GAME_DATA[Id].illust_01}/>
                         </div>
-                        <div className='grad-img'>
-                            <img src={GAME_DATA[Id].banner_img}/>
-                        </div>
-                        <div className='grad-img'>
-                            <img src={GAME_DATA[Id].banner_img}/>
+                        <div className='grad-img illust02'>
+                            <img src={GAME_DATA[Id].illust_02}/>
                         </div>
                     </Slider>
                 </div>   
-
+                <div className='gamePTitle'>
+                    <div className='gamPmainT game'>
+                    다운로드 링크
+                    </div>
+                    <div className='gamPsubT'>
+                    Download
+                    </div>
+                </div>
                 <a 
                 className={GAME_DATA[Id].classN}
                 target='_blank'
