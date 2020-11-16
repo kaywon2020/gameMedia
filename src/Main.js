@@ -10,7 +10,7 @@ const Main = () => {
                 GRAD PROJECT
                 </div>
                 <div className='gamPsubT'>
-            
+                
                 </div>
             </div>
             <BannerList/>

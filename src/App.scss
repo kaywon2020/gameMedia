@@ -367,6 +367,7 @@ body {
   .developer{
     width: 100%;
     display: flex;
+    font-size: 14px;
     .dev-wraper{
       display: flex;
       flex-direction: column;
@@ -386,7 +387,7 @@ body {
 }
 
 .gamePTitle.Main{
-  width: 60%;
+  width: 1152px;
   margin: auto;
   height: 52px;
   display: flex;

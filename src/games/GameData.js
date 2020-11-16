@@ -86,7 +86,7 @@ export const GAME_DATA = [
         banner_img: starHeroB,
         videoId:'3YR45NKoW48',
         downLink:'',
-        developer:[{'이창근':'기획'},{'이종민':'UI'},{'서민수':'Live2D, 애니메이션'},{'이현조':'애니메이션'},{'강연우':'배경'},{'신은해':'원화'},],
+        developer:[{'이창근':'기획'},{'이종민':'UI'},{'서민수':'Live2D, 애니메이션'},{'이현조':'애니메이션'},{'강연우':'배경'},{'신은해':'원화'}],
         intro:''
     },
     {
@@ -99,7 +99,7 @@ export const GAME_DATA = [
         banner_img: artBusterB,
         videoId:'9e_Gpr0mEbA',
         downLink:'https://drive.google.com/drive/u/1/folders/1xasIU8JrD-9df77UYqcf37OKNnSs4Efn',
-        developer:[{'박지선':'기획'},{'차은정':'프로그래밍'},{'정재혁':'프로그래밍'},{'박유리':'일러스트'},{'정하임':'UI, 애니메이션'},{'':''},],
+        developer:[{'박지선':'기획'},{'차은정':'프로그래밍'},{'정재혁':'프로그래밍'},{'박유리':'일러스트'},{'정하임':'UI, 애니메이션'},{'장현진':'이펙트'},{'지묘경':'배경'},{'김아영':'서브 그래픽'}],
         intro:'집에서 쫓겨나고 싶지 않다면 재능을 증명하라! 아마추어 예술가들이 재능을 얻기 위한 유령과의 고군분투 유닛 디펜스 게임!'
     },
     {
@@ -112,7 +112,7 @@ export const GAME_DATA = [
         banner_img: oasisB,
         videoId:'BNHIXZ2asrI',
         downLink:'https://drive.google.com/file/d/1tcYotIquBCKfVR95e-xwn_9tCIPC(Win10)2h8v/view?usp=sharing',
-        developer:[{'':''},{'':''},{'':''},{'':''},{'':''},{'':''},],
+        developer:[{'권동건':'기획'},{'김진혁':'프로그래밍'},{'이윤복':'AD'},{'염수진':'UI'},{'한지호':'3D'},{'윤성근':'3D'},{'이창식':'3D'},{'선하얀':'3D'},{'김병훈':'2D'},{'박지영':'2D'},{'김어진':'3D 어시'}],
         intro:'오아시스는 넓은 사막의 유적에서 일어난 이오나가 정령인 테라와 함께 길을 찾아 나서는 게임입니다. 고대 유적을 통해서 특수한 능력을 사용하여 길을 찾아보세요!'
     },
     {
@@ -125,7 +125,7 @@ export const GAME_DATA = [
         banner_img: coreBallB,
         videoId:'ypuS4UuQSH4',
         downLink:'https://drive.google.com/file/d/1AngoQAaTMNEr-rEzMU4NZQUtrT7-OPAB/view?usp=sharing',
-        developer:[{'':''},{'':''},{'':''},{'':''},{'':''},{'':''},],
+        developer:[{'이재상':'기획'},{'조우진':'UI'},{'정지우':'원화'},{'이희진':'애니메이션'},{'김가연':'3D 캐릭터'},{'임시은':'3D 배경'},{'조은진':'3D 배경'},{'김난영':'이펙트'},{'이로운(외부)':'프로그래밍'}],
         intro:'실시간으로 즐기는 모바일 2:2 슈팅 대전게임 볼을 소유하고 공격하고, 득점하라 코어볼로 골대를 점령하여 경기에서 승리하라!'
     },
     {
@@ -138,7 +138,7 @@ export const GAME_DATA = [
         banner_img: firePlaceB,
         videoId:'KZlNBegID3I',
         downLink:'https://drive.google.com/file/d/1rVVRT1QHthh_B-Z591iY3nB6YON3vo1X/view?usp=sharing',
-        developer:[{'':''},{'':''},{'':''},{'':''},{'':''},{'':''},],
+        developer:[{'김용준':'기획,프로그래밍'},{'박영욱':'캐릭터,원화'},{'이지민':'UI,타일맵'},{'이지우':'배경,오브젝트'},{'최지민':'애니메이션'}],
         intro:'사라진 줄만 알았던 거인이 다시 나타나 화염 정령 마을의 불꽃을 꺼뜨렸다! 정령왕이 되어 거인을 물리치고 얼어붙어 황폐화된 정령 마을을 되살리자!탑승할 수 있는 골렘과 오브젝트를 활용해서 위험천만한 장애물을 돌파해 나아가자!'
     },
     {
@@ -151,7 +151,7 @@ export const GAME_DATA = [
         banner_img: phamtomThiefB,
         videoId:'kZgkvv7vE_o',
         downLink:'https://drive.google.com/file/d/1AvY39YwZlVnu6IkF59gzQln9K6vdIo_J/view?usp=sharing',
-        developer:[{'':''},{'':''},{'':''},{'':''},{'':''},{'':''},],
+        developer:[{'장현민':'기획,일러스트,컷신,애니메이션'},{'이서연':'기획,QA'},{'정영채':'컷신,캐릭터'},{'조은영':'오브젝트,아이템'},{'한련화':'오브젝트,배경'},{'전소영':'UI,아이템'},],
         intro:'눈을 떠보니 유령이 된 주인공 팬텀, 죽음의 원인을 알아내기 위해 자신의 저택에 향하게 됩니다. 살인의 흔적, 사람들의 대화, 4명의 용의자들을 조사하여 죽음의 비밀을 파헤쳐보세요.'
     },    
 ]
