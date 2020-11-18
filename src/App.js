@@ -1,9 +1,10 @@
-import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { BrowserRouter, Route, useLocation, withRouter  } from 'react-router-dom';
 // import Home from './Home';
 import Main from './Main';
 import Info from './Info'
 // import BannerList from './comp/BannerList';
+// ie mobile block
 import NightMare from './games/NightMare'
 import WitchSaga from './games/WitchSaga'
 import MinerSaur from './games/MinerSaur'
@@ -19,9 +20,19 @@ import Navigation from './Navigation'
 import Footer from './Footer';
 import './App.scss';
 
+function _ScrollToTop(props) {
+  const { pathname } = useLocation();
+  useEffect(() => {
+      window.scrollTo(0, 0);
+  }, [pathname]);
+  return props.children
+}
+const ScrollToTop = withRouter(_ScrollToTop)
+
 function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <ScrollToTop>
       <Navigation />
       {/* 인포, 메인 */}
       {/* <Route exact path="/" component={Home} /> */}
@@ -40,6 +51,7 @@ function App() {
       <Route path="/FirePlace" component={FirePlace} />
       <Route path="/PhantomThief" component={PhantomThief} />
       <Footer />
+      </ScrollToTop>
     </BrowserRouter>
   );
 }

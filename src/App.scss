@@ -60,6 +60,16 @@ body {
   height: fit-content;
   margin: auto;
   width: 1152px;
+  // 모바일시
+  &.Mobile{
+    width: auto;
+    .gameLogo{
+      margin: auto;
+    }
+    .navi{
+      display: none;
+    }
+  }
   margin-top: 20px;
   margin-bottom: 30px;
   justify-content: space-between;
@@ -119,13 +129,17 @@ body {
 .footer{
   margin: auto;
   bottom: 0;
+  width: 1152px;
+  &.Mobile{
+    width: auto;
+  }
   // margin-bottom: 30px;
   margin-top: 30px;
   color: #010101;
   border-top: 2px solid;
   display: flex;
   // flex-direction: column;
-  width: 1152px;
+
   .kaywonLogoWrap{
     width: 100%;
     display: flex;
@@ -641,8 +655,38 @@ body {
 .MainP{
   width: 1152px;
   margin: auto;
+  &.Mobile{
+    width: auto;
+  }
 }
 .App{
+  &.Mobile{
+    .GradBanner,.gamePTitle,.mainDetail,.banner-list{
+      display: none;
+    }
+
+    .MobileView{
+      .MobileIco{
+        max-width: 50%;
+        height: 30%;
+        margin-bottom: 40px;
+        img{
+
+        }
+      }
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 600px;
+      font-size: 50px;
+    }
+  }
+  .MobileView{
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
   .gamePTitle{
     margin: auto;
     width: 1152px;

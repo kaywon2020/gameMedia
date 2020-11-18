@@ -1,12 +1,14 @@
 import React from 'react';
 import BannerList from './comp/BannerList';
-import GradBanner from './imgs/GradBanner.jpg'
+import { isMobile } from 'react-device-detect';
+import GradBanner from './imgs/GradBanner.jpg';
+import MobileIco from './imgs/mobile-phone.png';
 
 const Main = () => {
 
     return (
-        <div className="App fade-in MainP">
-            <img src={GradBanner} />
+        <div className={isMobile === true ? 'Mobile App fade-in MainP': "App fade-in MainP"}>
+            <img className='GradBanner' src={GradBanner} />
             <div className='gamePTitle Main'>
                 <div className='gamPmainT'>
                 Untact: With me
@@ -24,7 +26,7 @@ const Main = () => {
                 <b>“Untact”</b> 문화에 가장 적합한 기술이라 생각하며 여러분에게 새로운 경험을 선사하고자 합니다.<br/>
                 <br/>
 
-                <h2><b>Untact: with me</b> 에서 새로운 가능성 제시한 11개팀의 작품들을 함께 해주시길 바랍니다.</h2>
+                <h2><b>Untact: With me</b> 에서 새로운 가능성 제시한 11개팀의 작품들을 함께 해주시길 바랍니다.</h2>
             </div>
             <div className='gamePTitle'>
                 <div className='gamPmainT'>
@@ -35,6 +37,10 @@ const Main = () => {
                 </div>
             </div>
             <BannerList/>
+            <div className='MobileView'>
+            <img className='MobileIco' src={MobileIco} />
+            모바일 환경은 지원하지않습니다.
+            </div>
       </div>
     );
 };

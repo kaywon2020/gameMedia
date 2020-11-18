@@ -1,6 +1,7 @@
 
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { isMobile } from 'react-device-detect';
 import gameMediaLogo from './imgs/gameMediaLogo.png';
 // import playLogo from './imgs/playLogo.png';
 
@@ -8,7 +9,7 @@ import gameMediaLogo from './imgs/gameMediaLogo.png';
 
 const Navigation = () => {
   return (
-    <div className="header fade-in">
+    <div className={isMobile === true ? "Mobile header fade-in" : "header fade-in"}>
       <div className="gameLogo">
         <img alt='gameMediaLogo' src={gameMediaLogo}/>
       </div>
