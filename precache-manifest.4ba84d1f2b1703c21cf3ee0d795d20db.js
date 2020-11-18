@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "de763eb95e46f134a1bd49996dc470ec",
+    "revision": "acad2d4656609cf9ee03191ccc8ccaaf",
     "url": "/gameMedia/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gameMedia/static/css/2.cd47af82.chunk.css"
   },
   {
-    "revision": "a3c7e31e8b847ee615d8",
-    "url": "/gameMedia/static/css/main.47ca09f3.chunk.css"
+    "revision": "9aa702cf1c6d966445e7",
+    "url": "/gameMedia/static/css/main.8b56247e.chunk.css"
   },
   {
     "revision": "bb3d8c09b5d663d1c318",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gameMedia/static/js/2.3ca6019f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a3c7e31e8b847ee615d8",
-    "url": "/gameMedia/static/js/main.b2fc84e1.chunk.js"
+    "revision": "9aa702cf1c6d966445e7",
+    "url": "/gameMedia/static/js/main.95b2665d.chunk.js"
   },
   {
     "revision": "8fa0a2eb5e2d20c85126",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gameMedia/static/media/coreBallChar.27336215.png"
   },
   {
-    "revision": "f3c872475d4175f6ad179c4a5346cf01",
-    "url": "/gameMedia/static/media/coreBallLogo.f3c87247.png"
+    "revision": "04bde18d4e305b70545c1ddf1d560a46",
+    "url": "/gameMedia/static/media/coreBallLogo.04bde18d.png"
   },
   {
     "revision": "d93b61ad6e5f1119d6515a27b5794516",
@@ -84,8 +84,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gameMedia/static/media/firePlaceChar.96bba73e.png"
   },
   {
-    "revision": "d8b3f4ed9cf7b4b63f2d33a5cac2a80a",
-    "url": "/gameMedia/static/media/firePlaceLogo.d8b3f4ed.png"
+    "revision": "a6d357928e0c87c2d74ed20b69a1d621",
+    "url": "/gameMedia/static/media/firePlaceLogo.a6d35792.png"
   },
   {
     "revision": "e9d1845412243a576ff64492da0cce8b",
@@ -108,8 +108,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gameMedia/static/media/minerSaurChar.3ab9ff83.png"
   },
   {
-    "revision": "5b04e15da986b6bfe7a7b440576b369b",
-    "url": "/gameMedia/static/media/minerSaurLogo.5b04e15d.png"
+    "revision": "c100acc027cbf206a306f4a275f304fb",
+    "url": "/gameMedia/static/media/minerSaurLogo.c100acc0.png"
   },
   {
     "revision": "02549592b1670e4bd6ae2f74832f0f79",
@@ -148,8 +148,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gameMedia/static/media/oasisChar.fb01fadf.png"
   },
   {
-    "revision": "8324b659352e37638900d67919698364",
-    "url": "/gameMedia/static/media/oasisLogo.8324b659.png"
+    "revision": "8b5cbd6f30fc6c2b1c635e61af398f35",
+    "url": "/gameMedia/static/media/oasisLogo.8b5cbd6f.png"
   },
   {
     "revision": "0be307a1b67e65999506a548a114a7b9",
@@ -168,8 +168,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gameMedia/static/media/phantomThiefChar.5cabaafa.png"
   },
   {
-    "revision": "998c4c53575ad92235eff6ae94639c8e",
-    "url": "/gameMedia/static/media/phantomThiefLogo.998c4c53.png"
+    "revision": "5ad8960ff85fc4f71113732a7f8c886f",
+    "url": "/gameMedia/static/media/phantomThiefLogo.5ad8960f.png"
   },
   {
     "revision": "2490a34e811cfa49e5f66a374d316a57",
@@ -244,8 +244,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gameMedia/static/media/starHeroChar.4ba9150c.png"
   },
   {
-    "revision": "cb1761977443df983eded6741f1e1eef",
-    "url": "/gameMedia/static/media/starHeroLogo.cb176197.png"
+    "revision": "445de7ada0a87360111be3eb8311c85e",
+    "url": "/gameMedia/static/media/starHeroLogo.445de7ad.png"
   },
   {
     "revision": "205387b8f3cb7fd911d4809304e842bc",
