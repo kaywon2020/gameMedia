@@ -39,7 +39,7 @@ const Main = () => {
             <BannerList/>
             <div className='MobileView'>
             <img className='MobileIco' src={MobileIco} />
-            모바일 환경은 지원하지않습니다.
+            모바일 환경은 지원하지 않습니다.
             </div>
       </div>
     );
