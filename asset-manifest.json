@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/gameMedia/static/css/main.484301b3.chunk.css",
-    "main.js": "/gameMedia/static/js/main.91fc682f.chunk.js",
-    "main.js.map": "/gameMedia/static/js/main.91fc682f.chunk.js.map",
+    "main.css": "/gameMedia/static/css/main.efc8a6c1.chunk.css",
+    "main.js": "/gameMedia/static/js/main.b7cf9b1f.chunk.js",
+    "main.js.map": "/gameMedia/static/js/main.b7cf9b1f.chunk.js.map",
     "runtime-main.js": "/gameMedia/static/js/runtime-main.18854cf4.js",
     "runtime-main.js.map": "/gameMedia/static/js/runtime-main.18854cf4.js.map",
     "static/css/2.cd47af82.chunk.css": "/gameMedia/static/css/2.cd47af82.chunk.css",
-    "static/js/2.ecd4054e.chunk.js": "/gameMedia/static/js/2.ecd4054e.chunk.js",
-    "static/js/2.ecd4054e.chunk.js.map": "/gameMedia/static/js/2.ecd4054e.chunk.js.map",
+    "static/js/2.78cce0c0.chunk.js": "/gameMedia/static/js/2.78cce0c0.chunk.js",
+    "static/js/2.78cce0c0.chunk.js.map": "/gameMedia/static/js/2.78cce0c0.chunk.js.map",
     "index.html": "/gameMedia/index.html",
-    "precache-manifest.a05fa877872f825b04b853c2c3a3e74b.js": "/gameMedia/precache-manifest.a05fa877872f825b04b853c2c3a3e74b.js",
+    "precache-manifest.11319f34e03944a45638106fbe68e3cd.js": "/gameMedia/precache-manifest.11319f34e03944a45638106fbe68e3cd.js",
     "service-worker.js": "/gameMedia/service-worker.js",
     "static/css/2.cd47af82.chunk.css.map": "/gameMedia/static/css/2.cd47af82.chunk.css.map",
-    "static/css/main.484301b3.chunk.css.map": "/gameMedia/static/css/main.484301b3.chunk.css.map",
-    "static/js/2.ecd4054e.chunk.js.LICENSE.txt": "/gameMedia/static/js/2.ecd4054e.chunk.js.LICENSE.txt",
-    "static/media/GradBanner.jpg": "/gameMedia/static/media/GradBanner.66413ea7.jpg",
+    "static/css/main.efc8a6c1.chunk.css.map": "/gameMedia/static/css/main.efc8a6c1.chunk.css.map",
+    "static/js/2.78cce0c0.chunk.js.LICENSE.txt": "/gameMedia/static/js/2.78cce0c0.chunk.js.LICENSE.txt",
+    "static/media/GradBanner.jpg": "/gameMedia/static/media/GradBanner.cf023120.jpg",
+    "static/media/Map.jpg": "/gameMedia/static/media/Map.e9061019.jpg",
     "static/media/artBuster01.jpg": "/gameMedia/static/media/artBuster01.7dda8564.jpg",
     "static/media/artBuster02.jpg": "/gameMedia/static/media/artBuster02.1c458a5a.jpg",
     "static/media/artBusterB.jpg": "/gameMedia/static/media/artBusterB.07583908.jpg",
@@ -76,8 +77,8 @@
   "entrypoints": [
     "static/js/runtime-main.18854cf4.js",
     "static/css/2.cd47af82.chunk.css",
-    "static/js/2.ecd4054e.chunk.js",
-    "static/css/main.484301b3.chunk.css",
-    "static/js/main.91fc682f.chunk.js"
+    "static/js/2.78cce0c0.chunk.js",
+    "static/css/main.efc8a6c1.chunk.css",
+    "static/js/main.b7cf9b1f.chunk.js"
   ]
 }
