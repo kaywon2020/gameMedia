@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "acad2d4656609cf9ee03191ccc8ccaaf",
+    "revision": "df947ac80ac12356244aaae7a43e1f17",
     "url": "/gameMedia/index.html"
   },
   {
-    "revision": "bb3d8c09b5d663d1c318",
+    "revision": "8c495c271bd6f65f7a49",
     "url": "/gameMedia/static/css/2.cd47af82.chunk.css"
   },
   {
-    "revision": "9aa702cf1c6d966445e7",
-    "url": "/gameMedia/static/css/main.8b56247e.chunk.css"
+    "revision": "04a249e2a6d7df4d76fc",
+    "url": "/gameMedia/static/css/main.483f5b3a.chunk.css"
   },
   {
-    "revision": "bb3d8c09b5d663d1c318",
-    "url": "/gameMedia/static/js/2.3ca6019f.chunk.js"
+    "revision": "8c495c271bd6f65f7a49",
+    "url": "/gameMedia/static/js/2.ecd4054e.chunk.js"
   },
   {
     "revision": "6c99299aa0ccf7cd363681b2638ef8ef",
-    "url": "/gameMedia/static/js/2.3ca6019f.chunk.js.LICENSE.txt"
+    "url": "/gameMedia/static/js/2.ecd4054e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9aa702cf1c6d966445e7",
-    "url": "/gameMedia/static/js/main.95b2665d.chunk.js"
+    "revision": "04a249e2a6d7df4d76fc",
+    "url": "/gameMedia/static/js/main.aabd1d9b.chunk.js"
   },
   {
     "revision": "8fa0a2eb5e2d20c85126",
     "url": "/gameMedia/static/js/runtime-main.18854cf4.js"
+  },
+  {
+    "revision": "66413ea7a20f4ac35b93862795a8805e",
+    "url": "/gameMedia/static/media/GradBanner.66413ea7.jpg"
   },
   {
     "revision": "7dda8564eec7e1310b0d057139902b49",
