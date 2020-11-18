@@ -48,6 +48,15 @@ body {
 
 // 헤더
 .header{
+  -webkit-font-smoothing: subpixel-antialiased;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-ms-user-select: none;
+	-moz-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+
   height: fit-content;
   margin: auto;
   width: 1152px;
@@ -59,7 +68,7 @@ body {
   // flex-direction: column;
   display: flex;
   background-color: white;
-  .gameLogo{ 
+  .gameLogo{
     img{
      width: 213px;
      height: 65px;
@@ -110,7 +119,31 @@ body {
 .footer{
   margin: auto;
   bottom: 0;
+  // margin-bottom: 30px;
+  margin-top: 30px;
+  color: #010101;
+  border-top: 2px solid;
+  display: flex;
+  // flex-direction: column;
   width: 1152px;
+  .kaywonLogoWrap{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 44px;
+    padding-bottom: 40px;
+    .kaywonLogo{
+      width: 147px;
+      height: 45px;
+      margin-left: 60px;
+    }
+    .footerDetail{
+      font-family: 'GmarketSansLight';
+      font-size: 14px;
+      margin-right: 60px;
+    }
+  }
 }
 
 // 슬라이드
@@ -187,6 +220,7 @@ body {
   height: unset;
   margin: auto;
   display: flex;
+  margin-bottom: 60px;
   flex-direction: column;
   overflow: visible;
   // position: relative;
@@ -252,10 +286,179 @@ body {
 }
 
 .gamePages{
+  min-height: 2200px;
   width: 1152px;
   margin:auto;
   display: flex;
-  
+  .game_intro{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .game-Logo{
+      margin-top: 35px;
+      display: flex;
+      justify-content: center;
+      filter: drop-shadow(0 0 0.75rem #a1a2a5);
+      // 나이트 메어
+      &.NightMare{
+        filter: drop-shadow(0 0 0.25rem #909092);
+      }
+      &.Savior{
+        filter: drop-shadow(0 0 0.2rem #c3c4c7);
+      }
+      &.StarHeros{
+        filter: drop-shadow(0 0 0.25rem #a5a5a5);
+      }
+      &.Oasis{
+        filter: drop-shadow(0 0 0.2rem #6b6b6d);
+      }
+      &.CoreBallRush{
+        margin-top: 0px;
+        filter: drop-shadow(0 0 0.2rem #6b6b6d);
+      }
+      &.PhantomThief{
+        // margin-top: 0px;
+        filter: drop-shadow(0 0 0.2rem #6b6b6d);
+      }
+    }
+    .detail{
+      margin-top: 20px;
+      line-height: 1.9;
+      margin-bottom: 50px;
+      // word-break: keep-all;
+      // line-break: unset;
+      // letter-spacing: 0.02em;
+      font-size: 18px;
+      word-spacing: 0.02em;
+      width: 60%;
+      text-align: center;
+      font-family: 'GmarketSansLight';
+      h2{
+        text-shadow: 0 3px 3px #a5a5a5 ;
+        font-family: 'GmarketSansMedium';
+        // font-family: 'GmarketSansBold';
+        // font-family: 'GmarketSansLight';
+        // text-align: center;
+        font-weight: normal;
+        }
+      &.NightMare{
+        font-family: 'GmarketSansLight';
+        margin-top: 0px;
+        width: 85%;
+        text-align: center;
+      }
+      &.WitchSaga{
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 87%;
+      }
+      &.MinerSaur{
+        margin-bottom: 35px;
+        width: 70%;
+        text-align: center;
+        h2{
+          font-family: 'GmarketSansBold';
+          text-align: center;
+        }
+      }
+      &.ShieldGhost{
+        margin-bottom: 40px;
+        width: 52%;
+        text-align: center;
+        h2{
+          // font-family: 'GmarketSansBold';
+          text-align: center;
+        }
+      }
+      &.Savior{
+        margin-bottom: 40px;
+        width: 83%;
+        text-align: center;
+        h2{
+          // font-family: 'GmarketSansBold';
+          text-align: center;
+        }
+      }
+      &.StarHeros{
+        // margin-bottom: 40px;
+        width: 70%;
+        text-align: center;
+        h2{
+          // font-family: 'GmarketSansBold';
+          text-align: center;
+        }
+      }
+      &.ArtBusters{
+        width: 70%;
+        h2{
+          font-family: 'GmarketSansBold';
+        }
+      }
+      &.Oasis{
+        margin-top: 10px;
+        width: 90%;
+        h2{
+          font-family: 'GmarketSansBold';
+        }
+      }
+      &.CoreBallRush{
+        margin-top: 10px;
+        margin-bottom: 30px;
+        width: 95%;
+        h2{
+          // font-family: 'GmarketSansBold';
+        }
+      }
+      &.FirePlace{
+        // margin-top: 10px;
+        margin-bottom: 30px;
+        width: 90%;
+        h2{
+          line-height: 2.2;
+          font-size: 20px;
+          // font-family: 'GmarketSansBold';
+        }
+      }
+      &.PhantomThief{
+        word-break: keep-all;
+        margin-top: 10px;
+        // margin-bottom: 30px;
+        // width: 90%;
+        h2{
+          line-height: 2;
+          // font-size: 20px;
+          // font-family: 'GmarketSansBold';
+        }
+      }
+    }
+  }
+  //download button
+  .download{
+    .starDetail{
+      margin-top: 40px;
+      width: 65%;
+    }
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .copyRight{
+    width: 100%;
+    margin-bottom: 40px;
+    .copyRightDetail{
+      h3{
+        font-family: 'GmarketSansBold';
+        font-size: 16px;
+      }
+      font-size: 12px;
+      width: 100%;
+    }
+  }
   //게임 이미지들
   div{
     width: 80%;
@@ -266,20 +469,27 @@ body {
       justify-content: center;
       .slick-slider{
         .slick-list{
-          width: 100%;
+          width: 747px;
           div{
-            width: 100%;
+            width: 747px;
           }
           .grad-img{
+            outline: none;
             height: 420px;
-            background-color: aquamarine;
+            // background-color: aquamarine;
             img{
               margin: auto;
+            }
+
+            &.illust{
+              img{
+              width: 747px;
+              height: 420px;
+              }
             }
           }
         }
       }
-
     }
   }
   //유튭
@@ -305,6 +515,7 @@ body {
       letter-spacing: 0.25em;
       font-size: 18px;
       padding: 10px 0px;
+      margin-bottom: 25px;
       display: flex;
       justify-content: flex-start;
       position: relative;
@@ -315,8 +526,8 @@ body {
         position: absolute;
         content: "";
         left: 0;
-        bottom: 16px;
-        width: 90%;
+        bottom: 15px;
+        width: 85%;
         height: 3.25px;
         background-color: #010101;
       }
@@ -366,14 +577,18 @@ body {
     width: 100%;
     height: 52px;
     display: flex;
-    margin: 20px 0;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    // margin: 30px 0;
     .gamPmainT{
       width: max-content;
       font-family: 'GmarketSansBold';
-      font-size: 32px;
+      font-size: 36px;
       margin-right: 10px;
       &.gamePageT{
-        font-size: 36px;
+        margin-right: 4px;
+        font-size: 42px;
+        text-shadow: 2px 3px 3px #a5a5a5;
       }
     }
     .gamPsubT{
@@ -381,6 +596,20 @@ body {
       display: flex;
       width: max-content;
       align-items: center;
+      &.gamePageT{
+        margin-top: 20px;
+        font-size: 16px;
+        h3{
+          font-weight: normal;
+          font-size: 22px;
+          margin: 0;
+          margin-bottom: 0px;
+          // margin-right: 10px;
+        }
+      }
+    }
+    &.Gamelist{
+      //  margin-top: 30px;
     }
   }
   //개발자 리스트
@@ -388,6 +617,8 @@ body {
     width: 100%;
     display: flex;
     font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 40px;
     .dev-wraper{
       display: flex;
       flex-direction: column;
@@ -407,25 +638,91 @@ body {
   }
 }
 // 메인 페이지
-.gamePTitle.Main{
+.MainP{
   width: 1152px;
   margin: auto;
-  height: 52px;
-  display: flex;
-  .gamPmainT{
-    width: max-content;
-    font-family: 'GmarketSansBold';
-    font-size: 36px;
-    margin-right: 10px;
-  }
-  .gamPsubT{
-    font-size: 18px;
+}
+.App{
+  .gamePTitle{
+    margin: auto;
+    width: 1152px;
+    // height: 52px;
     display: flex;
-    width: max-content;
-    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    // margin: 30px 0;
+    .gamPmainT{
+      width: max-content;
+      font-family: 'GmarketSansBold';
+      font-size: 36px;
+      margin-right: 10px;
+      &.gamePageT{
+        font-size: 42px;
+        text-shadow: 2px 3px 3px #a5a5a5;
+      }
+    }
+    .gamPsubT{
+      font-size: 18px;
+      display: flex;
+      width: max-content;
+      align-items: center;
+    }
+    &.Gamelist{
+      //  margin-top: 30px;
+    }
   }
 }
 
+//Info
+.Info{
+  width: 1152px;
+  margin: auto;
+  margin-bottom: 80px;
+  display: flex;
+  .Map{
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+  }
+  // justify-content: space-between;
+  // flex-direction: column;
+  // align-items: center;
+  .Wrap{
+    
+    margin-top: 15px;
+    .gamePTitle{
+      margin-bottom: 20px;
+      position: relative;
+
+      &::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        bottom: -5px;
+        background-color: #121212;    
+      }
+      .gamPmainT{
+        font-size: 32px;
+      }
+    }
+    img{
+      margin: 20px 0px;
+      width: 697px;
+      height: 528px;
+    }
+    .InfoDetail{
+      // mar
+      width: 100%;
+      font-size: 18px;
+      h3{
+       margin: 10px 0;
+       font-size: 18px; 
+      }
+    }
+    }
+}
 //애니메이션
 .fade-in {
 	-webkit-animation: fade-in 1.2s ease-in-out both;
@@ -446,5 +743,117 @@ body {
   }
   100% {
     opacity: 1;
+  }
+}
+
+.gamePTitle{
+  width: 100%;
+  height: 52px;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 15px;
+    &.Main{
+      height: unset;
+      margin-top: 40px;
+    }
+  // margin: 30px 0;
+  .gamPmainT{
+    width: max-content;
+    font-family: 'GmarketSansBold';
+    font-size: 36px;
+    margin-right: 10px;
+    &.gamePageT{
+      margin-right: 4px;
+      font-size: 42px;
+      text-shadow: 2px 3px 3px #a5a5a5;
+    }
+
+  }
+  .gamPsubT{
+    font-size: 18px;
+    display: flex;
+    width: max-content;
+    align-items: center;
+    &.gamePageT{
+      margin-top: 20px;
+      font-size: 16px;
+      h3{
+        font-weight: normal;
+        font-size: 22px;
+        margin: 0;
+        margin-bottom: 0px;
+        // margin-right: 10px;
+      }
+    }
+  }
+  &.Gamelist{
+    //  margin-top: 30px;
+  }
+}
+
+
+.downlink{
+  cursor: pointer;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  &.StarHeros{
+    margin-top: 40px;
+  }
+  background-color: rgba(#fff, 0);
+  display: flex;
+  justify-content: center;
+  border-radius: 3px;
+  align-items: center;
+  // text-align: center;
+  border-top: 2px solid ;
+  border-right: 5px solid;
+  border-left: 2px solid;
+  border-bottom: 5px solid;
+  text-transform: uppercase;
+  width: 200px;
+  height: 50px;
+  color: #121212;
+  line-height: 1.4;
+  padding: .25em;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: 'GmarketSansBold';
+  letter-spacing: 0.05em;
+  transition: border 0.1s ease-in-out; //background-color 0.2s ease-in-out;
+  
+  &:hover {
+    // background-color: rgba(#121212, 1);
+    border-top: 5px solid ;
+    border-right: 2px solid ;
+    border-left: 5px solid ;
+    border-bottom: 2px solid ;
+    // color: #fff;
+  }
+}
+
+.mainDetail{
+  font-size: 16px;
+  font-weight: normal;
+  // margin-top: 0px;
+  margin-bottom: 60px;
+  h3{
+    font-family: 'GmarketSansBold';
+    font-size: 22px;
+    margin-bottom: 0;
+  }
+  h4{
+    font-size: 14px;
+    margin: 0;
+    color: #8d8d8d;
+    font-family: 'GmarketSansLight';
+  }
+  h2{
+    b{
+      font-size: 21px;
+      font-family: 'GmarketSansBold';
+    }
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 0;
   }
 }

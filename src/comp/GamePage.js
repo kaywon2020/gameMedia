@@ -11,6 +11,7 @@ const GamePage = (props) => {
     const Id = props.gameid;
 
     const sliderStngs = {
+        arrows:false,
         dots: true,
         lazyload:true,
         infinite: true,
@@ -45,7 +46,7 @@ const GamePage = (props) => {
         <div className='gamePages'>
             <div className='gameList'>
                 {/* 졸전 리스트 */}
-                <div className='gamePTitle'>
+                <div className='gamePTitle Gamelist'>
                 GAME LIST
                 </div>    
                 {GAME_DATA.map((game) =>(
@@ -59,12 +60,28 @@ const GamePage = (props) => {
                 </div>
                 {/* 게임 소개 페이지 */}
             <div className={GAME_DATA[Id].classN+' fade-in'}>
+                {/* 게임타이틀 */}
                 <div className='gamePTitle gamePageT'>
                     <div className='gamPmainT gamePageT'>
                     {GAME_DATA[Id].title}
                     </div>
+                    <div className='gamPsubT gamePageT'>
+                    {GAME_DATA[Id].platform}&nbsp;&nbsp;<h3>{GAME_DATA[Id].team}</h3>
+                    </div>
+                </div>
+                {/* game Intro */}
+                <div className={GAME_DATA[Id].classN+' game_intro'} >
+                    <div className={GAME_DATA[Id].classN+' game-Logo'}>
+                        <img src={GAME_DATA[Id].Logo} />
+                    </div >
+                        { GAME_DATA[Id].intro_detail }
+                </div>
+                <div className='gamePTitle'>
+                    <div className='gamPmainT gamePage'>
+                    플레이
+                    </div>
                     <div className='gamPsubT'>
-                    {GAME_DATA[Id].team}
+                    Play
                     </div>
                 </div>
                 <div className='youTubeWrap'>
@@ -87,29 +104,22 @@ const GamePage = (props) => {
                         <div className='grad-img char'>
                             <img src={GAME_DATA[Id].char}/>
                         </div>
-                        <div className='grad-img illust01'>
+                        <div className='grad-img illust'>
                             <img src={GAME_DATA[Id].illust_01}/>
                         </div>
-                        <div className='grad-img illust02'>
+                        <div className='grad-img illust'>
                             <img src={GAME_DATA[Id].illust_02}/>
                         </div>
                     </Slider>
                 </div>   
-                <div className='gamePTitle'>
+                {/* <div className='gamePTitle'>
                     <div className='gamPmainT game'>
                     다운로드 링크
                     </div>
                     <div className='gamPsubT'>
                     Download
                     </div>
-                </div>
-                <a 
-                className={GAME_DATA[Id].classN}
-                target='_blank'
-                rel='noopener noreferrer'
-                href={GAME_DATA[Id].downLink} >
-                    Download
-                </a>
+                </div> */}
                 <div className='gamePTitle'>
                     <div className='gamPmainT'>
                     개발진
@@ -130,6 +140,59 @@ const GamePage = (props) => {
                     </div>
                 ))}
             </div>
+            {
+                GAME_DATA[Id].classN === "ArtBusters" ? 
+                <div className='copyRight'>
+                    <div className='gamePTitle'>
+                        <div className='gamPmainT'>
+                        저작권 표기
+                        </div>
+                        <div className='gamPsubT'>
+                        Copyright
+                        </div>
+                    </div>
+                    <div className='copyRightDetail'>
+                        <h3><b>BGM 출처</b></h3>
+                        <b>스토리 컷씬</b>: 구재영,계한용_Pradeof children<br/>
+                        <b>자료출처</b>: https://gongu.copyright.or.kr<br/>
+                        <b>Music promoted by DayDreamSound</b>: https://youtu.be/NZvS-MRSSug<br/>
+                        <h3><b>타이틀</b></h3>
+                        KMu$ic - Welsh Corgi<br/>
+                        <b>Music by Kmu$ic</b>: http://bit.ly/Kmusic_Youtube<br/>
+                        <b>Download Video Link</b>: https://www.youtube.com/user/FVGozak<br/>
+                        <h3><b>스테이지 1 보스</b></h3>
+                        HEMIO - Sekhmet-orchestra<br/>
+                        <b>Follow Artist</b>: https://www.youtube.com/user/FVGozak<br/>
+                        <b>Music promoted by DayDreamSound</b>: https://youtu.be/rIHvXmMRUXE<br/>
+                    </div>
+                </div>
+                : null
+            }
+            {
+                GAME_DATA[Id].classN === 'StarHeros'?
+                <div className='download'>
+                    <div className='starDetail'>
+                    ※멀티플레이 게임 특성상 서버 부하를 감당하기 어려워 오프라인 시연만 진행합니다.
+                    </div>
+                    <a 
+                    className={GAME_DATA[Id].classN+ ' downlink'}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    >
+                    SORRY
+                    </a>
+                </div>
+                :
+                <div className='download'>
+                    <a 
+                    className={GAME_DATA[Id].classN+ ' downlink'}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    href={GAME_DATA[Id].downLink} >
+                    DOWNLOAD
+                    </a>
+                </div>
+            }
             </div>
         </div>   
     ) 

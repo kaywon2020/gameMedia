@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
-import Home from './Home';
+// import Home from './Home';
 import Main from './Main';
+import Info from './Info'
 // import BannerList from './comp/BannerList';
 import NightMare from './games/NightMare'
 import WitchSaga from './games/WitchSaga'
@@ -25,6 +26,7 @@ function App() {
       {/* 인포, 메인 */}
       {/* <Route exact path="/" component={Home} /> */}
       <Route exact path="/" component={Main} />
+      <Route exact path="/info" component={Info} />
       {/* 게임라우트 */}
       <Route path="/NightMare" component={NightMare} />
       <Route path="/witchSaga" component={WitchSaga} />
