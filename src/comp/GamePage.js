@@ -72,7 +72,7 @@ const GamePage = (props) => {
                 {/* game Intro */}
                 <div className={GAME_DATA[Id].classN+' game_intro'} >
                     <div className={GAME_DATA[Id].classN+' game-Logo'}>
-                        <img src={GAME_DATA[Id].Logo} />
+                        <img alt='game-Logo' src={GAME_DATA[Id].Logo} />
                     </div >
                         { GAME_DATA[Id].intro_detail }
                 </div>
@@ -102,13 +102,13 @@ const GamePage = (props) => {
                             <img alt='game-logo-img' src={GAME_DATA[Id].banner_img}/>
                         </div> */}
                         <div className='grad-img char'>
-                            <img src={GAME_DATA[Id].char}/>
+                            <img alt='grad-char' src={GAME_DATA[Id].char}/>
                         </div>
                         <div className='grad-img illust'>
-                            <img src={GAME_DATA[Id].illust_01}/>
+                            <img alt='grad-illust1' src={GAME_DATA[Id].illust_01}/>
                         </div>
                         <div className='grad-img illust'>
-                            <img src={GAME_DATA[Id].illust_02}/>
+                            <img alt='grad-illust2' src={GAME_DATA[Id].illust_02}/>
                         </div>
                     </Slider>
                 </div>   

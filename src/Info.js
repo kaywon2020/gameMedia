@@ -14,7 +14,7 @@ const Info = () => {
                     Directions
                     </div>
                 </div>
-                <img src={Map}/>
+                <img alt='Map' src={Map}/>
             </div>
             <div className='Wrap'>
                 <div className='gamePTitle'>
@@ -44,8 +44,12 @@ const Info = () => {
                     </div>
                 </div>
                 <div className='InfoDetail'>
-                학교 정보관 ( 정문 우측 건물 )<br />
-
+                학생주차장에 주차 후 정문에서<br />
+                발열체크 및 문진 후<br />
+                정보관 2층 게임미디어과를<br />
+                방문하여 주시기 바랍니다.<br />
+                <br />
+                ※ 주말 학교셔틀버스는 운행하지 않습니다.
                 </div>
             </div>
         </div>
