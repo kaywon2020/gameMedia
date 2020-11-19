@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "042d27da5bc57123ea7c8dbc4dc5a948",
+    "revision": "d2e3545969a94cbcad0c4c623f0cd623",
     "url": "/gameMedia/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gameMedia/static/css/2.cd47af82.chunk.css"
   },
   {
-    "revision": "8cf1b03439a6672f31b2",
+    "revision": "a307a37e6559511bf52d",
     "url": "/gameMedia/static/css/main.f0c3ecf7.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gameMedia/static/js/2.a38b9916.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8cf1b03439a6672f31b2",
-    "url": "/gameMedia/static/js/main.74aa8de1.chunk.js"
+    "revision": "a307a37e6559511bf52d",
+    "url": "/gameMedia/static/js/main.00cc2115.chunk.js"
   },
   {
     "revision": "8fa0a2eb5e2d20c85126",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gameMedia/static/media/GradBanner.cf023120.jpg"
   },
   {
-    "revision": "e906101923f25b50e8af7bfb1b6f5f45",
-    "url": "/gameMedia/static/media/Map.e9061019.jpg"
+    "revision": "c2335ddebe1e1cc3d7ef92bec9f91404",
+    "url": "/gameMedia/static/media/Map.c2335dde.jpg"
   },
   {
     "revision": "7dda8564eec7e1310b0d057139902b49",
