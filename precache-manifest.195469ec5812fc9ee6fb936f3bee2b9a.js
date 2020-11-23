@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d2e3545969a94cbcad0c4c623f0cd623",
+    "revision": "73cf38fdb38f2047f32c60e3a009b858",
     "url": "/gameMedia/index.html"
   },
   {
-    "revision": "1b18970d1900442b6db7",
+    "revision": "f8a3c211bf51dc7830eb",
     "url": "/gameMedia/static/css/2.cd47af82.chunk.css"
   },
   {
-    "revision": "a307a37e6559511bf52d",
-    "url": "/gameMedia/static/css/main.f0c3ecf7.chunk.css"
+    "revision": "ff79dffab091595b12dd",
+    "url": "/gameMedia/static/css/main.98cd2f53.chunk.css"
   },
   {
-    "revision": "1b18970d1900442b6db7",
-    "url": "/gameMedia/static/js/2.a38b9916.chunk.js"
+    "revision": "f8a3c211bf51dc7830eb",
+    "url": "/gameMedia/static/js/2.0ca2c86a.chunk.js"
   },
   {
     "revision": "e803371d93ce848935c6de966248ea92",
-    "url": "/gameMedia/static/js/2.a38b9916.chunk.js.LICENSE.txt"
+    "url": "/gameMedia/static/js/2.0ca2c86a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a307a37e6559511bf52d",
-    "url": "/gameMedia/static/js/main.00cc2115.chunk.js"
+    "revision": "ff79dffab091595b12dd",
+    "url": "/gameMedia/static/js/main.d8d4dae3.chunk.js"
   },
   {
     "revision": "8fa0a2eb5e2d20c85126",
@@ -100,12 +100,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gameMedia/static/media/gameMediaLogo.e9d18454.png"
   },
   {
-    "revision": "ceb0c3ff6d759cd27f5d7c68f67fe8cf",
-    "url": "/gameMedia/static/media/minerSaur01.ceb0c3ff.jpg"
+    "revision": "fbb2fa38c2ff7d8ddc0d88e3b54ad892",
+    "url": "/gameMedia/static/media/minerSaur01.fbb2fa38.jpg"
   },
   {
-    "revision": "52fb96c0c62a2dbb9a7a184a25f6fbbe",
-    "url": "/gameMedia/static/media/minerSaur02.52fb96c0.jpg"
+    "revision": "6ed8276b648684d97b908e7b57dcb551",
+    "url": "/gameMedia/static/media/minerSaur02.6ed8276b.jpg"
   },
   {
     "revision": "c93e82a68f602676e36dfdc45b9d3b6b",
@@ -120,12 +120,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gameMedia/static/media/minerSaurLogo.c100acc0.png"
   },
   {
-    "revision": "02549592b1670e4bd6ae2f74832f0f79",
-    "url": "/gameMedia/static/media/nightMare01.02549592.jpg"
+    "revision": "8ea11d7cba0683c53c8fd8bd9aa50ff5",
+    "url": "/gameMedia/static/media/nightMare01.8ea11d7c.jpg"
   },
   {
-    "revision": "ae2d317bc638b14809556cff6f623a32",
-    "url": "/gameMedia/static/media/nightMare02.ae2d317b.jpg"
+    "revision": "250e5fb3134460ca00892ecde906959e",
+    "url": "/gameMedia/static/media/nightMare02.250e5fb3.jpg"
+  },
+  {
+    "revision": "835242850b6dab65b7205440f0c0ec6f",
+    "url": "/gameMedia/static/media/nightMare03.83524285.jpg"
   },
   {
     "revision": "19fd088b4c6455542571249696756bf4",
@@ -140,8 +144,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gameMedia/static/media/nightMareLogo.5fdd0965.png"
   },
   {
-    "revision": "432b120d9330161909b930b2cd8077bc",
-    "url": "/gameMedia/static/media/oasis01.432b120d.jpg"
+    "revision": "d0937944c7437cd52ee6d2e3f2ed9d8d",
+    "url": "/gameMedia/static/media/oasis01.d0937944.jpg"
   },
   {
     "revision": "e3201c8dc55f35d5cbab81260e1f52c7",
