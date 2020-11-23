@@ -101,9 +101,15 @@ const GamePage = (props) => {
                         {/* <div className='grad-img'>
                             <img alt='game-logo-img' src={GAME_DATA[Id].banner_img}/>
                         </div> */}
+                        {GAME_DATA[Id].classN !== 'NightMare' ?
                         <div className='grad-img char'>
                             <img alt='grad-char' src={GAME_DATA[Id].char}/>
                         </div>
+                        :
+                        <div className='grad-img illust'>
+                            <img alt='grad-illust3' src={GAME_DATA[Id].illust_03}/>
+                        </div>
+                        }
                         <div className='grad-img illust'>
                             <img alt='grad-illust1' src={GAME_DATA[Id].illust_01}/>
                         </div>

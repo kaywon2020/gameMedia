@@ -59,6 +59,8 @@ import oasis02 from '../imgs/oasis02.jpg';
 import coreBall02 from '../imgs/coreBall02.jpg';
 import firePlace02 from '../imgs/firePlace02.jpg';
 import phantomThief02 from '../imgs/phantomThief02.jpg'
+//03
+import nightMare03 from '../imgs/nightMare03.jpg';
 // import MinerSaur from './MinerSaur';
 // import Savior from './Savior';
 // import StarHeros from './StarHeros';
@@ -71,6 +73,7 @@ export const GAME_DATA = [
         title: 'NightMare',
         classN: 'NightMare',
         team: '맷돌',
+        illust_03: nightMare03,
         illust_01: nightMare01,
         illust_02: nightMare02,
         Logo: nightMareLogo,
@@ -259,7 +262,7 @@ export const GAME_DATA = [
         banner_img: coreBallB,
         videoId:'ypuS4UuQSH4',
         downLink:'https://drive.google.com/file/d/1AngoQAaTMNEr-rEzMU4NZQUtrT7-OPAB/view?usp=sharing',
-        developer:[{'이재상':'기획'},{'조우진':'UI'},{'정지우':'원화'},{'이희진':'애니메이션'},{'김가연':'3D 캐릭터'},{'임시은':'3D 배경'},{'조은진':'3D 배경'},{'김난영':'이펙트'},{'이로운(외부)':'프로그래밍'}],
+        developer:[{'이재상':'기획'},{'조우진':'UI'},{'정지우':'원화'},{'이희진':'애니메이션'},{'김가연':'3D 캐릭터'},{'임시은':'3D 배경'},{'조은진':'3D 배경'},{'김난영':'이펙트'},{'이로운(외부)':'프로그래밍'},{'이헌우(외부)':'프로그래밍'}],
         intro:'실시간으로 즐기는 모바일 2:2 슈팅 대전게임 볼을 소유하고 공격하고, 득점하라 코어볼로 골대를 점령하여 경기에서 승리하라!',
         intro_detail: <div className='CoreBallRush detail'>
                         <h2><b>실시간</b>으로 즐기는 <b>모바일</b> 2:2 <b>슈팅 대전게임</b> 볼을 소유하고 공격하고,<br/>

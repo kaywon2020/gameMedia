@@ -678,8 +678,8 @@ body {
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      height: 600px;
-      font-size: 50px;
+      height: max-content;
+      
     }
   }
   .MobileView{
@@ -735,9 +735,14 @@ body {
   .Wrap{
     
     margin-top: 15px;
+    &.MobileUI{
+      // display: flex;
+      font-size: 22px;
+    }
     .gamePTitle{
       margin-bottom: 20px;
       position: relative;
+
 
       &::after{
         content: "";
@@ -749,6 +754,7 @@ body {
       }
       .gamPmainT{
         font-size: 32px;
+
       }
     }
     img{
@@ -760,12 +766,52 @@ body {
       // mar
       width: 100%;
       font-size: 18px;
+
       h3{
        margin: 10px 0;
-       font-size: 18px; 
+       font-size: 22px;
+
       }
     }
     }
+}
+//모바일 UI
+
+.Wrap{
+    
+  // margin-top: 15px;
+  &.MobileUI{
+    display: flex;
+    flex-direction: column;
+    font-size: 26px;
+    margin: auto;
+
+  }
+  .InfoDetail{
+    text-align: center;
+    margin: auto;
+  }
+}
+.MobileUI{
+  &.Title{
+    font-size: 50px;
+    margin-top: 3vh;
+    font-family: 'GmarketSansBold';
+    &.gameName{
+      font-size: 25px;
+      text-decoration: none;
+      color: #010101;
+      margin-top: 2vh;
+      margin-bottom: 1vh;
+    }
+  }
+  width: 80%;
+  top: 0px;
+}
+
+.Mobileimg{
+  max-width: 80%;
+  margin: auto;
 }
 //애니메이션
 .fade-in {

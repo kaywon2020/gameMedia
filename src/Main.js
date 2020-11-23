@@ -2,7 +2,8 @@ import React from 'react';
 import BannerList from './comp/BannerList';
 import { isMobile } from 'react-device-detect';
 import GradBanner from './imgs/GradBanner.jpg';
-import MobileIco from './imgs/mobile-phone.png';
+// import MobileIco from './imgs/mobile-phone.png';
+import Map from './imgs/Map.jpg'
 
 const Main = () => {
 
@@ -37,8 +38,70 @@ const Main = () => {
             </div>
             <BannerList/>
             <div className='MobileView'>
-            <img alt='MobileIco' className='MobileIco' src={MobileIco} />
-            모바일 환경은 지원하지 않습니다.
+            <div className='MobileUI Title'>
+                오시는길
+            </div>
+            <img alt='Mobileimg' className='Mobileimg' src={Map} />
+            <div className='Wrap MobileUI'>
+                <div className='gamePTitle MobileUI'>
+                    <div className='gamPmainT MobileUI'>
+                    시간
+                    </div>
+                    <div className='gamPsubT MobileUI'>
+                    Time
+                    </div>
+                </div>
+                <div className='InfoDetail MobileUI'><h3>11.27.FRI - 11.29.SUN</h3><h3>pm 13 - 17</h3></div>
+                <div className='gamePTitle MobileUI'>
+                    <div className='gamPmainT MobileUI'>
+                    장소
+                    </div>
+                    <div className='gamPsubT MobileUI'>
+                    Loaction
+                    </div>
+                </div>
+                <div className='InfoDetail MobileUI'><h3>계원예술대학교 정보관 2F 201B</h3></div>
+                <div className='gamePTitle MobileUI'>
+                    <div className='gamPmainT MobileUI'>
+                    주차
+                    </div>
+                    <div className='gamPsubT MobileUI'>
+                    Parking
+                    </div>
+                </div>
+                <div className='InfoDetail MobileUI'>
+                학생주차장에 주차 후 정문에서<br />
+                발열체크 및 문진 후<br />
+                정보관 2층 게임미디어과를<br />
+                방문하여 주시기 바랍니다.<br />
+                <br />
+                ※ 주말 학교셔틀버스는 운행하지 않습니다.
+                </div>
+                <div className='MobileUI Title'>
+                APK 다운로드
+                </div>
+                <a className='MobileUI Title gameName'
+                target='_blank'
+                rel='noopener noreferrer'
+                href='https://drive.google.com/file/d/1vJB3OKgCva2aHcJW9ozooITYAUTy5eg5/view?usp=sharing'
+                >
+                Savior
+                </a>
+                <a className='MobileUI Title gameName'
+                target='_blank'
+                rel='noopener noreferrer'
+                href='https://drive.google.com/drive/u/1/folders/1xasIU8JrD-9df77UYqcf37OKNnSs4Efn'
+                >
+                ArtBusters
+                </a>
+                <a className='MobileUI Title gameName'
+                target='_blank'
+                rel='noopener noreferrer'
+                href='https://drive.google.com/file/d/1AngoQAaTMNEr-rEzMU4NZQUtrT7-OPAB/view?usp=sharing'
+                >
+                CoreBallRush
+                </a>
+            </div>
             </div>
       </div>
     );
