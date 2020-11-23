@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gameMedia/static/css/main.98cd2f53.chunk.css",
+    "main.css": "/gameMedia/static/css/main.afba012e.chunk.css",
     "main.js": "/gameMedia/static/js/main.d8d4dae3.chunk.js",
     "main.js.map": "/gameMedia/static/js/main.d8d4dae3.chunk.js.map",
     "runtime-main.js": "/gameMedia/static/js/runtime-main.18854cf4.js",
@@ -9,10 +9,10 @@
     "static/js/2.0ca2c86a.chunk.js": "/gameMedia/static/js/2.0ca2c86a.chunk.js",
     "static/js/2.0ca2c86a.chunk.js.map": "/gameMedia/static/js/2.0ca2c86a.chunk.js.map",
     "index.html": "/gameMedia/index.html",
-    "precache-manifest.195469ec5812fc9ee6fb936f3bee2b9a.js": "/gameMedia/precache-manifest.195469ec5812fc9ee6fb936f3bee2b9a.js",
+    "precache-manifest.d64ea987fcbcfddd3d3215be703f73ff.js": "/gameMedia/precache-manifest.d64ea987fcbcfddd3d3215be703f73ff.js",
     "service-worker.js": "/gameMedia/service-worker.js",
     "static/css/2.cd47af82.chunk.css.map": "/gameMedia/static/css/2.cd47af82.chunk.css.map",
-    "static/css/main.98cd2f53.chunk.css.map": "/gameMedia/static/css/main.98cd2f53.chunk.css.map",
+    "static/css/main.afba012e.chunk.css.map": "/gameMedia/static/css/main.afba012e.chunk.css.map",
     "static/js/2.0ca2c86a.chunk.js.LICENSE.txt": "/gameMedia/static/js/2.0ca2c86a.chunk.js.LICENSE.txt",
     "static/media/GradBanner.jpg": "/gameMedia/static/media/GradBanner.cf023120.jpg",
     "static/media/Map.jpg": "/gameMedia/static/media/Map.c2335dde.jpg",
@@ -79,7 +79,7 @@
     "static/js/runtime-main.18854cf4.js",
     "static/css/2.cd47af82.chunk.css",
     "static/js/2.0ca2c86a.chunk.js",
-    "static/css/main.98cd2f53.chunk.css",
+    "static/css/main.afba012e.chunk.css",
     "static/js/main.d8d4dae3.chunk.js"
   ]
 }
