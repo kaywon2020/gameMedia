@@ -12,6 +12,9 @@ const VrComp = () => {
                 <h1>Exhibition Hall</h1>
                 <h2>전시장</h2>
             </div>
+            <div className='vrDetail'>
+            지도 위 구역 클릭 시 360° 파노라마 이미지로 현장을 감상할 수 있습니다.
+            </div>
             {/* <TestVr /> */}
             <div className="exhiMap">
                 <img alt="exhibition info" src={ExhibtionMap} />
@@ -147,7 +150,7 @@ const VrComp = () => {
                 </div>
                 <div className="listup section-C">
                     <div className="section-T">C Zone</div>
-                    <div className='section-detail'>1. 파이어플레이스</div>
+                    <div className='section-detail'>1. 나이트메어</div>
                     {/* <div className='section-detail'>2. 마이너소어</div> */}
                 </div>
                 <div className="listup section-D">
@@ -156,8 +159,10 @@ const VrComp = () => {
                 </div>
                 <div className="listup section-E">
                     <div className="section-T">E Zone</div>
-                    <div className='section-detail'>1. 파이어플레이스</div>
-                    <div className='section-detail'>2. 마이너소어</div>
+                    <div className='section-detail'>1. 팬텀시프</div>
+                    <div className='section-detail'>2. 방패령</div>
+                    <div className='section-detail'>3. 리틀위치사가</div>
+                    <div className='section-detail'>4. 오아시스</div>
                 </div>
             </div>
         </div>

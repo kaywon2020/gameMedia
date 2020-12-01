@@ -33,7 +33,7 @@ const Dome = (props) => {
     const texture = useLoader(THREE.TextureLoader, Sectionimg);
     return (
         <mesh>
-            <sphereBufferGeometry attach="geometry" args={[500, 60, 40]} />
+            <sphereBufferGeometry attach="geometry" args={[100, 60, 40]} />
             <meshBasicMaterial attach="material" map={texture} side={THREE.BackSide} />
         </mesh>
     );
@@ -41,7 +41,7 @@ const Dome = (props) => {
 
 const TestVr = (props) => {
     return (
-    <Canvas camera={{ position: [0, 0, 50] }}>
+    <Canvas camera={{ position: [0, 0, 10] }}>
         <Controls enableZoom={false} enablePan={false} maxPolarAngle={Math.PI*2/3} enableDamping dampingFactor={0.2} />
         <Suspense fallback={null}>
           <Dome texture={props.section} />

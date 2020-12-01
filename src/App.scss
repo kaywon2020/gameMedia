@@ -970,6 +970,12 @@ body {
     margin-left: 20px;
   }
 
+  .vrDetail{
+    margin-top: 5px;
+    margin-left: 20px;
+    
+  }
+
   .exhiMap{
     display: flex;
     justify-content: center;
@@ -1126,6 +1132,7 @@ body {
       .game-list{
       display: flex;
       justify-content: space-between;
+      margin-bottom: 60px;
       .listup{
         .section-T{
           width: 180px;
@@ -1142,6 +1149,10 @@ body {
             left: 0;
             bottom: 0;
           }
+        }
+        .section-detail{
+          margin-top: 15px;
+          font-size: 18px;
         }
       }
     }
