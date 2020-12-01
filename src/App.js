@@ -38,6 +38,7 @@ function App() {
       {/* <Route exact path="/" component={Home} /> */}
       <Route exact path="/" component={Main} />
       <Route exact path="/info" component={Info} />
+      <Route exact path="/vr" component={} />
       {/* 게임라우트 */}
       <Route path="/NightMare" component={NightMare} />
       <Route path="/witchSaga" component={WitchSaga} />
