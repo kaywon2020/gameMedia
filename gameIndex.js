@@ -1,9 +1,6 @@
 import React from 'react';
-import GameYouTube from "./GameYouTube";
+import GameYouTube from './GameYouTube';
 
-
-const gameIndex = () => {
-
-}
+const gameIndex = () => {};
 
 export default gameIndex;

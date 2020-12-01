@@ -948,3 +948,201 @@ body {
     margin-bottom: 0;
   }
 }
+
+//360 panorama
+.vrcontentWrap{
+  margin: auto;
+  width: 1152px;
+  height: auto;
+
+  .exhiTitle{
+    display: flex;
+    align-items: flex-end;
+    h1{
+      font-family: 'GmarketSansBold';
+      font-size: 36px;
+      margin-bottom: 0px;
+    }
+    h2{
+      margin-bottom: 3px;
+      margin-left: 15px;
+    }
+    margin-left: 20px;
+  }
+
+  .exhiMap{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    .posi{
+      text-decoration: none;
+      color: #010101;
+      font-family: 'GmarketSansBold';
+      position: absolute;
+      cursor: pointer;
+      font-size: 108px;
+      transition: text-shadow 0.2s ease-in-out, top 0.1s ease-in-out, left 0.1s ease-in-out;
+      z-index: 1000;
+      &.A{
+        top: 128px;
+        left: 305px;
+        text-shadow: #f5e0d9 12px 10px;
+      }
+      &.B{
+        top: 135px;
+        left: 738px;
+        text-shadow: #ed95ae 12px 10px;
+      }
+      &.C{
+        top: 323px;
+        left: 504px;
+        text-shadow: #b0ddf0 12px 10px;
+      }
+      &.D{
+        top: 506px;
+        left: 316px;
+        text-shadow: #f3c4cb 12px 10px;
+      }
+      &.E{
+        top: 506px;
+        left: 734px;
+        text-shadow: #84a1cc 12px 10px;
+      }
+
+      //hover
+      &:hover{
+        text-shadow: #fff 0px 0px;
+        &.A{
+          top: 140px;
+          left: 315px;
+        }
+        &.B{
+          top: 147px;
+          left: 748px;
+        }
+        &.C{
+          top: 345px;
+          left: 514px;
+        }
+        &.D{
+          top: 518px;
+          left: 326px;
+        }
+        &.E{
+          top: 518px;
+          left: 744px;
+        }
+      }
+    }
+    //
+    
+    //:target
+    .modal-window {
+      position: fixed;
+      background-color: rgba(80, 80, 80, 0.5);
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 100001;
+      visibility: hidden;
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.3s;
+      &:target {
+        visibility: visible;
+        opacity: 1;
+        pointer-events: auto;
+      }
+      .modal {
+        width: 1152px;
+        height: 740px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #ffffff;
+
+        .section-Title{
+          width: 1002px;
+          text-align: left;
+          font-size: 32px;
+          text-shadow: #dadada 8px 5px;
+          margin-top: 20px;
+          font-family: 'GmarketSansBold';
+        }
+
+        .modal-close{
+          position: absolute;
+          text-align: right;
+          top: 0;
+          margin-top: 20px;
+          text-decoration: none;
+          width: 96%;
+          color: #010101;
+
+          svg{
+            width: 36px;
+            height: 36px;
+          }
+        }
+
+        .photoWrap{
+          margin-top: 20px;
+          width: 1002px;
+          height: 550px;
+        }
+      }
+      header {
+        font-weight: bold;
+      }
+      h1 {
+        font-size: 150%;
+        margin: 0 0 15px;
+      }
+      .next{
+        width: 50%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        svg{
+          color: #010101;
+          text-decoration: none;
+          width: 36px;
+          height: 36px;
+        }
+        .fa-circle{
+          width: 25px;
+          height: 25px;
+        }
+      }
+    }
+  }
+      .game-list{
+      display: flex;
+      justify-content: space-between;
+      .listup{
+        .section-T{
+          width: 180px;
+          font-size: 30px;
+          font-family: 'GmarketSansBold';
+          position: relative;
+
+          &::after{
+            position: absolute;
+            width: 90%;
+            height: 4px;
+            content: '';
+            background-color: #010101;
+            left: 0;
+            bottom: 0;
+          }
+        }
+      }
+    }
+}

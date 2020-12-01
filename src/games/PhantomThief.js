@@ -1,10 +1,8 @@
 import React from 'react';
-import GamePage from '../comp/GamePage'
+import GamePage from '../comp/GamePage';
 
 const PhantomThief = () => {
-    return (
-        <GamePage gameid='10'/>
-    );
+    return <GamePage gameid="10" />;
 };
 
-export default PhantomThief
+export default PhantomThief;

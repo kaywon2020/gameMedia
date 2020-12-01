@@ -1,10 +1,8 @@
 import React from 'react';
-import GamePage from '../comp/GamePage'
+import GamePage from '../comp/GamePage';
 
 const ShieldGhost = () => {
-    return (
-        <GamePage gameid='3'/>
-    );
+    return <GamePage gameid="3" />;
 };
 
-export default ShieldGhost
+export default ShieldGhost;

@@ -1,10 +1,8 @@
 import React from 'react';
-import GamePage from '../comp/GamePage'
+import GamePage from '../comp/GamePage';
 
 const NightMare = () => {
-    return (
-        <GamePage gameid='0'/>
-    );
+    return <GamePage gameid="0" />;
 };
 
-export default NightMare
+export default NightMare;

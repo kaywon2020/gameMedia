@@ -1,10 +1,8 @@
 import React from 'react';
-import GamePage from '../comp/GamePage'
+import GamePage from '../comp/GamePage';
 
 const MinerSaur = () => {
-    return (
-        <GamePage gameid='2'/>
-    );
+    return <GamePage gameid="2" />;
 };
 
-export default MinerSaur
+export default MinerSaur;
