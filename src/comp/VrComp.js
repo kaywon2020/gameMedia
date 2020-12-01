@@ -143,9 +143,9 @@ const VrComp = () => {
                 </div>
                 <div className="listup section-B">
                     <div className="section-T">B Zone</div>
-                    <div className='section-detail'>1. 코어볼 러쉬</div>
+                    <div className='section-detail'>1. 스타 히어로즈</div>
                     <div className='section-detail'>2. 세이비어</div>
-                    <div className='section-detail'>3. 스타 히어로즈</div>
+                    <div className='section-detail'>3. 코어볼 러쉬</div>
                     <div className='section-detail'>4. 아트 버스터즈</div>
                 </div>
                 <div className="listup section-C">
